@@ -1,0 +1,69 @@
+#/*
+#* Copyright (c) 2022 Gouvernement du Québec
+#* Auteur: Philippe Foucault
+#* SPDX-License-Identifier: LiLiQ-R-v.1.1
+#* License-Filename: /LICENSE
+#*/
+##############################################################
+# Requetes http pour l'émeteur d'attestations d'accès virtuel
+##############################################################
+# Avant usage, il faut renseigner les champs X-API-Key des 
+# endpoints qui seront utilisés. 
+# 
+### Définition des variables globales 
+@hostname = http://localhost:3000
+
+####
+#### Create a new cat  
+#### 
+POST {{hostname}}/cats HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+{
+    "name": "Kitty Kitty", 
+    "age": 10, 
+    "breed": "vira-latas"
+}
+
+
+####
+#### Select all cats
+#### 
+GET {{hostname}}/cats HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### Selects a cat identified by id
+#### 
+GET {{hostname}}/cats/1400 HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### Selects a cat by a parameter
+#### 
+GET {{hostname}}/cats?var=test HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### 
+#### 
+PUT {{hostname}}/cats/2 HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+{
+    "name": "Kitty Kitty", 
+    "age": 10, 
+    "breed": "vira-latas"
+}
+
+
+
+

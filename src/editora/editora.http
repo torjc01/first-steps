@@ -1,0 +1,46 @@
+#/*
+#* Copyright (c) 2022 Gouvernement du Québec
+#* Auteur: Julio Cesar Torres 
+#* SPDX-License-Identifier: LiLiQ-R-v.1.1
+#* License-Filename: /LICENSE
+#*/
+##############################################################
+# Requetes http pour l'émeteur d'attestations d'accès virtuel
+##############################################################
+# Avant usage, il faut renseigner les champs X-API-Key des 
+# endpoints qui seront utilisés. 
+# 
+### Définition des variables globales 
+@hostname = http://localhost:3000
+
+# ============================================================================
+#    Entity: Editora
+#    Endpoint: /editoras
+# ============================================================================
+
+####
+#### Selects all editoras
+#### 
+GET {{hostname}}/editoras HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### Create a new editora 
+#### 
+POST {{hostname}}/editoras HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+    {  
+    "nome": "Les Belles Lettres", 
+    "endereco" : "95, bd Raspail, 75006", 
+    "cidade" : "Paris", 
+    "siglaISOPais": "fr", 
+    "site": "https://www.lesbelleslettres.com"
+    }
+]
+
+

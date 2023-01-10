@@ -1,0 +1,148 @@
+#/*
+#* Copyright (c) 2022 Gouvernement du Québec
+#* Auteur: Julio Cesar Torres 
+#* SPDX-License-Identifier: LiLiQ-R-v.1.1
+#* License-Filename: /LICENSE
+#*/
+##############################################################
+# Requetes http pour l'émeteur d'attestations d'accès virtuel
+##############################################################
+# Avant usage, il faut renseigner les champs X-API-Key des 
+# endpoints qui seront utilisés. 
+# 
+### Définition des variables globales 
+@hostname = http://localhost:3000
+
+# ============================================================================
+#    Entity: Pais
+#    Endpoint: /pais
+# ============================================================================
+
+
+####
+#### Selects all paises 
+#### 
+GET {{hostname}}/pais HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### Create a new pais 
+#### 
+POST {{hostname}}/pais HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+    { 
+        "siglaISO": "es", 
+        "nome" : "Espanha",
+        "nomeEn" : "Spain",
+        "nomeFr" : "Espagne",
+        "nomeOriginal" : "Espana", 
+        "nomeExtensivo": "Espanha"
+    }
+]
+
+
+####
+#### Create a new batch of paises 
+#### 
+POST {{hostname}}/pais HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+[
+    { 
+        "siglaISO": "br", 
+        "nome" : "Brasil",
+        "nomeEn" : "Brazil",
+        "nomeFr" : "Brésil",
+        "nomeOriginal" : "Brasil", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "ca", 
+        "nome" : "Canada",
+        "nomeEn" : "Canada",
+        "nomeFr" : "Canada",
+        "nomeOriginal" : "Canada", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "us", 
+        "nome" : "Estados Unidos",
+        "nomeEn" : "United States",
+        "nomeFr" : "États-Unis",
+        "nomeOriginal" : "United States", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "fr", 
+        "nome" : "França",
+        "nomeEn" : "France",
+        "nomeFr" : "France",
+        "nomeOriginal" : "France", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "it", 
+        "nome" : "Italia",
+        "nomeEn" : "Italy",
+        "nomeFr" : "Italie",
+        "nomeOriginal" : "Italia", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "de", 
+        "nome" : "Alemanha",
+        "nomeEn" : "Germany",
+        "nomeFr" : "Allemagne",
+        "nomeOriginal" : "Deutschland", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "il", 
+        "nome" : "Israel",
+        "nomeEn" : "Israel",
+        "nomeFr" : "Israël",
+        "nomeOriginal" : "Yisrael", 
+        "nomeExtensivo": ""
+    }
+    ,
+    { 
+        "siglaISO": "uk", 
+        "nome" : "Reino Unido",
+        "nomeEn" : "United Kingdom",
+        "nomeFr" : "Royaume Uni",
+        "nomeOriginal" : "United Kingdom", 
+        "nomeExtensivo": ""
+    }
+    ,
+    {
+        "siglaISO": "pt",
+        "nome": "Portugal",
+        "nomeEn": "Portugal",
+        "nomeFr": "Portugal",
+        "nomeOriginal": "Portugal",
+        "nomeExtensivo": "Portugal"
+    },
+    { 
+        "siglaISO": "es", 
+        "nome" : "Espanha",
+        "nomeEn" : "Spain",
+        "nomeFr" : "Espagne",
+        "nomeOriginal" : "Espana", 
+        "nomeExtensivo": "Espanha"
+    }
+]
+
+

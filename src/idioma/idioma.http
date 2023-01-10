@@ -1,0 +1,124 @@
+#/*
+#* Copyright (c) 2022 Gouvernement du Québec
+#* Auteur: Julio Cesar Torres 
+#* SPDX-License-Identifier: LiLiQ-R-v.1.1
+#* License-Filename: /LICENSE
+#*/
+##############################################################
+# Requetes http pour l'émeteur d'attestations d'accès virtuel
+##############################################################
+# Avant usage, il faut renseigner les champs X-API-Key des 
+# endpoints qui seront utilisés. 
+# 
+### Définition des variables globales 
+@hostname = http://localhost:3000
+
+# ============================================================================
+#    Entity: Idioma
+#    Endpoint: /idiomas
+# ============================================================================
+
+####
+#### Create a new idioma 
+#### 
+POST {{hostname}}/idiomas HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+{
+        "siglaISO": "hu", 
+        "nome": "Hungaro", 
+        "nomeEn": "Hungarian", 
+        "nomeFr": "Hongrois", 
+        "nomeOriginal" : "Magyar"
+}
+
+####
+#### Create a new batch of idiomas 
+#### 
+POST {{hostname}}/idiomas HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+    {
+        "siglaISO": "pt-br", 
+        "nome": "Português", 
+        "nomeEn": "Portuguese", 
+        "nomeFr": "Portugais", 
+        "nomeOriginal" : "Português"
+    }
+    ,
+    {
+        "siglaISO": "en", 
+        "nome": "Inglês", 
+        "nomeEn": "English", 
+        "nomeFr": "Anglais", 
+        "nomeOriginal" : "English"
+    }
+    ,
+    {
+        "siglaISO": "fr", 
+        "nome": "Francês", 
+        "nomeEn": "French", 
+        "nomeFr": "Français", 
+        "nomeOriginal" : "Français"
+    }
+    ,
+    {
+        "siglaISO": "de", 
+        "nome": "Alemao", 
+        "nomeEn": "German", 
+        "nomeFr": "Allemand", 
+        "nomeOriginal" : "Deutsch"
+    }
+    ,
+    {
+        "siglaISO": "la", 
+        "nome": "Latim", 
+        "nomeEn": "Latin", 
+        "nomeFr": "Latin", 
+        "nomeOriginal" : "Latin"
+    }
+    ,
+    {
+        "siglaISO": "es", 
+        "nome": "Espanhol", 
+        "nomeEn": "Spanish", 
+        "nomeFr": "Espagnol", 
+        "nomeOriginal" : "Espanol"
+    }
+    ,
+    {
+        "siglaISO": "iw", 
+        "nome": "Hebraico", 
+        "nomeEn": "Hebrew", 
+        "nomeFr": "Hébreu", 
+        "nomeOriginal" : "Ivrit"
+    }
+    ,
+    {
+        "siglaISO": "gr", 
+        "nome": "Grego", 
+        "nomeEn": "Greek", 
+        "nomeFr": "Grec", 
+        "nomeOriginal" : "Hellenika"
+    }
+    ,
+    {
+        "siglaISO": "hu", 
+        "nome": "Hungaro", 
+        "nomeEn": "Hungarian", 
+        "nomeFr": "Hongrois", 
+        "nomeOriginal" : "Magyar"
+    }
+]
+
+
+
+####
+#### Selects all idiomas 
+#### 
+GET {{hostname}}/idiomas HTTP/1.1
+X-API-Key: 
+Content-Type: application/json

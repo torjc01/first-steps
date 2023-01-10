@@ -1,0 +1,436 @@
+#/*
+#* Copyright (c) 2022 Gouvernement du Québec
+#* Auteur: Julio Cesar Torres 
+#* SPDX-License-Identifier: LiLiQ-R-v.1.1
+#* License-Filename: /LICENSE
+#*/
+##############################################################
+# Requetes http pour l'émeteur d'attestations d'accès virtuel
+##############################################################
+# Avant usage, il faut renseigner les champs X-API-Key des 
+# endpoints qui seront utilisés. 
+# 
+### Définition des variables globales 
+@hostname = http://localhost:3000
+
+# ============================================================================
+#    Entity: Livro
+#    Endpoint: /livro
+# ============================================================================
+
+####
+#### Selects all livros 
+#### 
+GET {{hostname}}/livros HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### Create a new livro 
+#### 
+POST {{hostname}}/livros HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+    {
+        "titulo" : "Structured Fortran 77 for Engineers and Scientists",
+        "subtitulo" : "",
+        "tituloOriginal" : "Structured Fortran 77 for Engineers and Scientists",
+        "autores" : "D.M. Etter",
+        "siglaISOIdioma" : "en",
+        "edicao" : "4",
+        "cidade" : "Redwood City, CA", 
+        "editora": "The Benjamin/Cummings Publishing Company, Inc.",
+        "ano": 1993,
+        "genero" : "Computaçao; Programaçao; Fortran", 
+        "estado": "Cadastrado",
+        "isActive" : true
+    }
+]
+
+####
+#### Create a new batch of livros 
+#### 
+POST {{hostname}}/livros HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+  {
+    "titulo": "Meu eterno amor, meu Papai!",
+    "subtitulo": "",
+    "tituloOriginal": "Meu eterno amor, meu Papai!",
+    "autores": "Alice Morais Torres; Edjara Rodirgues Morais",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Québec City",
+    "ano": 2022,
+    "genero": "Amor; Familia",
+    "editora": "Costco Photo Center",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Edgar Allan Poe",
+    "subtitulo": "",
+    "tituloOriginal": "Edgar Allan Poe",
+    "autores": "Edgar Allan Poe",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "New York",
+    "ano": 1945,
+    "genero": "Literatura; Fantasia; Horror; Gotico",
+    "editora": "Viking Press",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "La Bible de Jérusalem",
+    "subtitulo": "La Sainte Bible Traduite en français sous la direction de l'École Biblique de Jérusalem",
+    "tituloOriginal": "La Bible de Jérusalem",
+    "autores": "Various",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Paris",
+    "ano": 1986,
+    "genero": "Religiao; Catolico; Biblia",
+    "editora": "Desclée de Brouwer",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Le Rosaire",
+    "subtitulo": "Nouvelle édition augmentée des cinq mystères lumineux",
+    "tituloOriginal": "Le Rosaire",
+    "autores": "R.P.J.M. Lelen, Ph.D.",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "New Jersey",
+    "ano": 2013,
+    "genero": "Religiao; Catolico; Rosario",
+    "editora": "Catholic Book Publishing Corp",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Guide des Tertiaires de Saint François",
+    "subtitulo": "",
+    "tituloOriginal": "Guide des Tertiaires de Saint François",
+    "autores": "Nihil",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Québec City",
+    "ano": 1953,
+    "genero": "Religiao; Catolico",
+    "editora": "Tremblay & Dion Inc.",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "101 Jogos e Fantasias Sexuais",
+    "subtitulo": "Tudo o que você precisa saber para apimentar a sua vida sexual",
+    "tituloOriginal": "101 fantasias y juegos sexuales",
+    "autores": "Sofia Capablanca",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Sao Paulo",
+    "ano": 2006,
+    "genero": "Sexualidade; Sensualidade; Fantasia sexual",
+    "editora": "Marco Zero",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Tolkien, an Illustrated Atlas",
+    "subtitulo": "",
+    "tituloOriginal": "Tolkien, an Illustrated Atlas",
+    "autores": "David Day",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "San Diego, CA",
+    "ano": 2015,
+    "genero": "Literatura; Fantasia; LotR; Tolkien",
+    "editora": "Thunder Bay Press",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Breviarium Romanum",
+    "subtitulo": "Pars Verna",
+    "tituloOriginal": "Breviarium Romanum",
+    "autores": "Nihil",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Turonibus",
+    "ano": 1921,
+    "genero": "Religiao; Catolico; Breviario",
+    "editora": "A. Mame et Filiorum",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Manual for Men",
+    "subtitulo": "",
+    "tituloOriginal": "Manual for Men",
+    "autores": "Thomas J. Olmsted",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Charlotte, NC",
+    "ano": 2017,
+    "genero": "Religiao; Catolico",
+    "editora": "TAN Books",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "La Sainte Bible",
+    "subtitulo": "Traduite d'aprés les textes originaux hébreu et grec, par Louis Segond, Docteur en théologie",
+    "tituloOriginal": "La Sainte Bible",
+    "autores": "Louis Segond",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "",
+    "ano": 2023,
+    "genero": "Religiao; Catolico; Biblia",
+    "editora": "Alliance Biblique Universelle",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Mon Combat",
+    "subtitulo": "",
+    "tituloOriginal": "Mein Kampf",
+    "autores": "Adolf Hitler",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Paris",
+    "ano": 1979,
+    "genero": "Historia; Guerra; Nazismo",
+    "editora": "Nouvelles Éditions Latines",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "The Chess Player's Handbook",
+    "subtitulo": "A popular and scientific introduction to the game of chess, exemplified in games actually played by the greatest maseters and illustrated by numerous diagrams of original and remarkable positions",
+    "tituloOriginal": "The Chess Player's Handbook",
+    "autores": "Howard Staunton, Esq.",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "London",
+    "ano": 1848,
+    "genero": "Esporte; Xadrez; Manual",
+    "editora": "Henry G. Bohn",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Tales of Edgar Allan Poe",
+    "subtitulo": "With an introduction by Hervey Allen and wood engravings by Fritz Eichenberg",
+    "tituloOriginal": "Tales of Edgar Allan Poe",
+    "autores": "Edgar Allan Poe",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "New York",
+    "ano": 1949,
+    "genero": "Literatura; Fantasia; Horror",
+    "editora": "Random House, Inc.",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Leaving boyhood behind",
+    "subtitulo": "Reclaiming Catholic Brotherhood",
+    "tituloOriginal": "Leaving boyhood behind",
+    "autores": "Jason M. Craig",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Huntington, IN",
+    "ano": 2019,
+    "genero": "Religiao; Catolico; Fraternidade",
+    "editora": "Our Sunday Visitor Publishing Division",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Introduçao a Criptografia",
+    "subtitulo": "",
+    "tituloOriginal": "Introduction to Cryptography",
+    "autores": "Johannes A. Buchmann",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Sao Paulo",
+    "ano": 2002,
+    "genero": "Computacao; Criptografia; Processamento de dados; Segurança",
+    "editora": "Editora Berkley",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Beginning NFC",
+    "subtitulo": "Near Field Communication with Arduino, Android & PhoneGAP",
+    "tituloOriginal": "Beginning NFC",
+    "autores": "Tom Igoe; Don Coleman; Brian Jepson",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Sebastopol, CA",
+    "ano": 2014,
+    "genero": "Computaçao; NFC; Arduino; Android; PhoneGAP; Radio",
+    "editora": "O'Reilly Media, Inc.",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Journaux de Guerre",
+    "subtitulo": "I. 1914-1918",
+    "tituloOriginal": "Journaux de Guerre",
+    "autores": "Ernst Jünger",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Paris",
+    "ano": 2008,
+    "genero": "Militaria; I Guerra Mundial; Jornal intimo; POV alemao",
+    "editora": "Éditions Gallimard",
+    "colecao": "Bibliothèque de la Pléiade",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Airband Radio on the RTL-SDR",
+    "subtitulo": "Tips and tricks for capturing voice and data on a revolutionary device",
+    "tituloOriginal": "Airband Radio on the RTL-SDR",
+    "autores": "Philip G. Collier",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Bolton, ON",
+    "ano": 2021,
+    "genero": "Radio; RTL; SDR",
+    "editora": "Amazon.ca",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Jacques de Molay",
+    "subtitulo": "Le dernier grand-maître des Templiers",
+    "tituloOriginal": "Jacques de Molay",
+    "autores": "Philippe Josserand",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Paris",
+    "ano": 2019,
+    "genero": "Templarios; Biografia; Maçonaria; Historia",
+    "editora": "Les Belles Lettres",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Rituels Cathares",
+    "subtitulo": "",
+    "tituloOriginal": "Rituels Cathares",
+    "autores": "Claude Arnoux",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Nimes",
+    "ano": 1993,
+    "genero": "Cataros; Maçonaria; Historia; Ritualistica",
+    "editora": "Lacour Éditeur",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Écrits Spirituels",
+    "subtitulo": "",
+    "tituloOriginal": "Écrits Spirituels",
+    "autores": "St Charles de Foucauld",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Plouisy",
+    "ano": 2007,
+    "genero": "Religiao; Catolico; Biografia; Vida dos Santos; St Charles de Foucauld",
+    "editora": "Éditions Petrus",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "The Cloud of Unknowing",
+    "subtitulo": "And the Book of Privy Counseling",
+    "tituloOriginal": "The Cloud of Unknowing",
+    "autores": "Nihil",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "New York",
+    "ano": 2014,
+    "genero": "Religiao; Catolico; Espiritualidade",
+    "editora": "Image Edition",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Poesia completa e prosa",
+    "subtitulo": "",
+    "tituloOriginal": "Poesia completa e prosa",
+    "autores": "Vinicuis de Moraes",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Rio de Janeiro",
+    "ano": 1981,
+    "genero": "Literatura; Prosa; Poesia",
+    "editora": "Editora Nova Aguilar",
+    "colecao": "Biblioteca Luso-Brasileira, Série Brasileira",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Orthodoxy",
+    "subtitulo": "",
+    "tituloOriginal": "Orthodoxy",
+    "autores": "Gilberth Keith Chesterton",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Nashville, TN",
+    "ano": 2022,
+    "genero": "Religiao; Cristianismo; Apologetica; Teologia; Doutrina",
+    "editora": "B&H Academic",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  },
+  {
+    "titulo": "Structured Fortran 77 for Engineers and Scientists",
+    "subtitulo": "",
+    "tituloOriginal": "Structured Fortran 77 for Engineers and Scientists",
+    "autores": "D.M. Etter",
+    "siglaISOIdioma": "",
+    "edicao": "",
+    "cidade": "Redwood City, CA",
+    "ano": 1993,
+    "genero": "Computaçao; Programaçao; Fortran",
+    "editora": "The Benjamin/Cummings Publishing Company, Inc.",
+    "colecao": "",
+    "estado": "Cadastrado",
+    "isActive": true
+  }
+]

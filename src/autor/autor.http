@@ -1,0 +1,214 @@
+#/*
+#* Copyright (c) 2022 Gouvernement du Québec
+#* Auteur: Julio Cesar Torres 
+#* SPDX-License-Identifier: LiLiQ-R-v.1.1
+#* License-Filename: /LICENSE
+#*/
+##############################################################
+# Requetes http pour l'émeteur d'attestations d'accès virtuel
+##############################################################
+# Avant usage, il faut renseigner les champs X-API-Key des 
+# endpoints qui seront utilisés. 
+# 
+### Définition des variables globales 
+@hostname = http://localhost:3000
+
+
+# ============================================================================
+#    Entity: Autor
+#    Endpoint: /autores
+# ============================================================================
+
+####
+#### Selects all autores 
+#### 
+GET {{hostname}}/autores HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
+#### Create a new autor 
+#### 
+POST {{hostname}}/autores HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+    {  
+    "nome": "Philip", 
+    "sobrenome" : "G. Collier", 
+    "codigoPais" : 0, 
+    "anoNascimento": 0,  
+    "biografia" : "" 
+    }
+]
+
+
+####
+#### Create a new batch of autores 
+#### 
+POST {{hostname}}/autores HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+  {
+    "nome": "Nihil",
+    "sobrenome": "",
+    "codigoPais": 0,
+    "anoNascimento": 0,
+    "biografia": "Codigo especial de autor, para ser utilizado quando nao for possivel associar um autor especifico a orbra."
+  },
+  {
+    "nome": "Various",
+    "sobrenome": "",
+    "codigoPais": 0,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Machado",
+    "sobrenome": "de Assis",
+    "codigoPais": 1,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Umberto",
+    "sobrenome": "Eco",
+    "codigoPais": 5,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Adolf",
+    "sobrenome": "Hitler",
+    "codigoPais": 6,
+    "anoNascimento": 1889,
+    "biografia": ""
+  },
+  {
+    "nome": "Ernst",
+    "sobrenome": "Jünger",
+    "codigoPais": 6,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Gilbert Keith",
+    "sobrenome": "Chesterton",
+    "codigoPais": 8,
+    "anoNascimento": 1874,
+    "biografia": ""
+  },
+  {
+    "nome": "Alice",
+    "sobrenome": "Morais Torres",
+    "codigoPais": 2,
+    "anoNascimento": 2022,
+    "biografia": "É o neném mais lindo do mundo, e o papai ama!"
+  },
+  {
+    "nome": "Edjara",
+    "sobrenome": "Rodrigues Morais",
+    "codigoPais": 1,
+    "anoNascimento": 1981,
+    "biografia": ""
+  },
+  {
+    "nome": "Edgar",
+    "sobrenome": "Allan Poe",
+    "codigoPais": 3,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  
+  {
+    "nome": "R.P.J.M",
+    "sobrenome": "Lelen, PhD",
+    "codigoPais": 0,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  
+  {
+    "nome": "Sofia",
+    "sobrenome": "Capablanca",
+    "codigoPais": 10,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "David",
+    "sobrenome": "Day",
+    "codigoPais": 0,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Thomas",
+    "sobrenome": "J. Olmsted",
+    "codigoPais": 0,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Louis",
+    "sobrenome": "Segond",
+    "codigoPais": 4,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Howard",
+    "sobrenome": "Staunton, Esq.",
+    "codigoPais": 8,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Jason",
+    "sobrenome": "M. Craig",
+    "codigoPais": 3,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Johannes",
+    "sobrenome": "A. Buchmann",
+    "codigoPais": 6,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Tom",
+    "sobrenome": "Igoe",
+    "codigoPais": 3,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Don",
+    "sobrenome": "Coleman",
+    "codigoPais": 3,
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "nome": "Brian",
+    "sobrenome": "Jepson",
+    "codigoPais": 3,
+    "anoNascimento": 0,
+    "biografia": ""
+  }
+  ,
+  {  
+    "nome": "Philip", 
+    "sobrenome" : "G. Collier", 
+    "codigoPais" : 0, 
+    "anoNascimento": 0,  
+    "biografia" : "" 
+  }
+
+]
