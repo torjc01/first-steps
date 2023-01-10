@@ -7,7 +7,6 @@ import { LivroModule } from './livro/livro.module';
 import { IdiomaModule } from './idioma/idioma.module';
 import { AutorModule } from './autor/autor.module';
 import { PaisModule } from './pais/pais.module';
-import { UserModule } from './user/user.module';
 import { EditoraModule } from './editora/editora.module';
 
 require('dotenv').config();
@@ -28,7 +27,7 @@ require('dotenv').config();
     IdiomaModule,
     AutorModule, 
     PaisModule, 
-    UserModule, EditoraModule,
+    EditoraModule,
   ],
   controllers: [AppController],
   providers: [AppService],
