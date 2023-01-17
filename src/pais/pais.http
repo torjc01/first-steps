@@ -36,12 +36,12 @@ Content-Type: application/json
 
 [
     { 
-        "siglaISO": "es", 
-        "nome" : "Espanha",
-        "nomeEn" : "Spain",
-        "nomeFr" : "Espagne",
-        "nomeOriginal" : "Espana", 
-        "nomeExtensivo": "Espanha"
+        "siglaISO": "gr", 
+        "nome" : "Grécia",
+        "nomeEn" : "Greece",
+        "nomeFr" : "Grèce",
+        "nomeOriginal" : "Hellas", 
+        "nomeExtensivo": "Grécia"
     }
 ]
 

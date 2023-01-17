@@ -19,6 +19,14 @@
 # ============================================================================
 
 ####
+#### Selects all idiomas 
+#### 
+GET {{hostname}}/idiomas HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+
+####
 #### Create a new idioma 
 #### 
 POST {{hostname}}/idiomas HTTP/1.1
@@ -116,9 +124,3 @@ Content-Type: application/json
 
 
 
-####
-#### Selects all idiomas 
-#### 
-GET {{hostname}}/idiomas HTTP/1.1
-X-API-Key: 
-Content-Type: application/json

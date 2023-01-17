@@ -13,7 +13,7 @@ export class Autor {
     sobrenome       : string;
 
     @Column()
-    codigoPais      : number;
+    siglaISOPais    : string;
     
     @Column()
     anoNascimento   : number;

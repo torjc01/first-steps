@@ -29,17 +29,17 @@ Content-Type: application/json
 ####
 #### Create a new editora 
 #### 
-POST {{hostname}}/editoras HTTP/1.1
+POST {{hostname}}/editoras HTTP/1.1Köln
 X-API-Key: 
 Content-Type: application/json
 
 [
     {  
-    "nome": "Les Belles Lettres", 
-    "endereco" : "95, bd Raspail, 75006", 
+    "nome": "Hatier", 
+    "endereco" : "",
     "cidade" : "Paris", 
     "siglaISOPais": "fr", 
-    "site": "https://www.lesbelleslettres.com"
+    "site": ""
     }
 ]
 

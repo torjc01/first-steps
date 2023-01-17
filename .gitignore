@@ -40,3 +40,5 @@ env.sh
 
 # Arquivos de backup
 database-backup*
+
+constants.ts

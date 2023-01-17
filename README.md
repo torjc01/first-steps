@@ -6,32 +6,63 @@ Criar um arquivo .env no diretorio raiz da aplicacao, e incluir as variaveis de 
 # Database 
 
 **Minimo**
-codigo*, titulo, subtitulo, tituloOriginal, autores, siglaISOIdioma, edicao, cidade, ano, genero, editora, estado, isActive
+&codigo, titulo, subtitulo, tituloOriginal, autores, siglaISOIdioma, edicao, cidade, ano, genero, editora, estado, isActive
 
 **Obra**
-codigo, obra, titulo, subtitulo, tituloOriginal, subtituloOriginal, codigoStatus, timestampStatus, responsavelStatus, 
+&codigo, titulo, subtitulo, tituloOriginal, subtituloOriginal, codigoStatus, timestampStatus, responsavelStatus, 
 
 **Autor**
-codigo, nome, sobrenome, codigoPais, anoNascimento, biografia
+&codigo, nome, sobrenome, siglaISOPais, anoNascimento, biografia, codigoStatus, dataCriacao, dataModificacao, versao
 
 **Idioma**
-siglaISO, nome, nomeEn, nomeFr, nomeOriginal
+&siglaISO, nome, nomeEn, nomeFr, nomeOriginal, codigoStatus, dataCriacao, dataModificacao, versao
 
 **IndiceCatalogoSistematico**
-codigo, indiceCatalogo
+&codigo, indiceCatalogo
 
 **Pais**
-codigo, siglaISO, nome, nomeEn, nomeFr, nomeOriginal
+&siglaISO, nome, nomeEn, nomeFr, nomeOriginal, codigoStatus, dataCriacao, dataModificacao, versao
 
 **Editora** 
-codigo, nome, endereco, cidade, codigoPais, site
+&codigo, nome, endereco, cidade, siglaISOPais, site, codigoStatus, dataCriacao, dataModificacao, versao
 
 **Exemplar**
-codigoObra, edicao, ano, ISBN, codigoEditora, paginas, codigoTipoEncadernacao, codigoStatus, precoCompra, codigoMoedaCompra, valor, codigoMoedaValor
+&codigo, codigoObra, numeroSequencialExemplar, edicao, ano, ISBN, codigoEditora, paginas, codigoTipoEncadernacao, codigoStatus, codigoMoedaCompra, precoCompra, codigoMoedaValor, valor, codigoStatus, dataCriacao, dataModificacao, versao
+
+**Status**
+&codigo, descricaoStatus
+
+**User**
+&codigo, nome, sobrenome, email, password, codigoStatus, dataCriacao, dataModificacao, versao
+
+**TipoEncadernacao** 
+codigoTipoEncadernacao, descricaoTipoEncadernacao
+
+
+
+
 
 
 Referências
+
+/present-proof/records/
+
 https://ead.urcamp.edu.br/blog/dicas-tcc-referencia-abnt
+
+https://auth0.com/blog/modern-full-stack-development-with-nestjs-react-typescript-and-mongodb-part-2/
+
+https://blog.logrocket.com/full-stack-app-tutorial-nestjs-react/#defining-the-schema
+
+https://blog.logrocket.com/containerized-development-nestjs-docker/
+
+https://www.tomray.dev/nestjs-docker-production
+
+
+https://www.nxp.com/docs/en/user-guide/141520.pdf
+
+https://forum.arduino.cc/t/need-help-getting-pn532-module-v3-to-detect-p2p/349577
+
+
 
 
 select a.nome, a.sobrenome, b.nome  from autor a, pais b where a.codigoPais = b.codigo order by b.nome, a.nome, a.sobrenome;

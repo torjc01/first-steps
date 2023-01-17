@@ -13,45 +13,66 @@
 ### Définition des variables globales 
 @hostname = http://localhost:3000
 
+# ============================================================================
+#    Entity: User
+#    Endpoint: /users
+# ============================================================================
 
-# ============================================================================
-#    Entity: Autor
-#    Endpoint: /autores
-# ============================================================================
 
 ####
-#### Selects all autores 
+#### Selects all users 
 #### 
-GET {{hostname}}/autores HTTP/1.1
+GET {{hostname}}/users HTTP/1.1
 X-API-Key: 
 Content-Type: application/json
 
 
 ####
-#### Create a new autor 
+#### Create a new user 
 #### 
-POST {{hostname}}/autores HTTP/1.1
+POST {{hostname}}/users HTTP/1.1
 X-API-Key: 
 Content-Type: application/json
 
 [
-    {  
-    "nome": "Bernard.", 
-    "sobrenome" : "Bortolussi", 
-    "siglaISOPais" : "fr", 
-    "anoNascimento": 0,  
-    "biografia" : "" 
+    { 
+        "nome": "Julio Cesar", 
+        "sobrenome": "Torres dos Santos", 
+        "email": "juliozohar@gmail.com", 
+        "password": "senhamuitoforte",
+        "codigoStatus": "C"
     }
 ]
 
 
 ####
-#### Create a new batch of autores 
+#### Create a new batch of users 
 #### 
-POST {{hostname}}/autores HTTP/1.1
+POST {{hostname}}/users HTTP/1.1
 X-API-Key: 
 Content-Type: application/json
 
 [
-  
+    { 
+        "nome": "Julio Cesar", 
+        "sobrenome": "Torres dos Santos", 
+        "email": "juliozohar@gmail.com", 
+        "password": "senhamuitoforte",
+        "codigoStatus": "C"
+    }
+]
+
+####
+#### Create a new batch of users 
+#### 
+PATCH {{hostname}}/users HTTP/1.1
+X-API-Key: 
+Content-Type: application/json
+
+[
+    {   "codigo" : 1, 
+         
+            "password": "outrasenhamuitoforte"
+        
+    }
 ]
