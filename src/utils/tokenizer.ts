@@ -10,7 +10,7 @@
  *   tokenizer("fr; gr;la ", ";")          retornara  [ 'fr', 'gr', 'la' ]
  *   tokenizer(" Iliada, Odisseia ", ",")  retornara  [ 'Iliada', 'Odisseia' ]
  */
-export function tokenizer(parm, separador){
+export function tokenizer(parm:string , separador:string){
     return parm.split(separador).map(function(item){
         return item.trim();
     });
