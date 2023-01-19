@@ -67,6 +67,37 @@
 ```
 
 	- modifier entity: mettre les décorations et champs de table 
+
+```ts
+	@Entity()
+	export class Personne {
+
+		@PrimaryGeneratedColumn()
+		codePersonne: number;
+
+		@Column({length: 32})
+		nom: string; 
+
+		@Column({length: 32})
+		prenom: string;
+		
+		@Column({length: 32})
+		direction: string; 
+
+		@Column({length: 32})
+		poste: string; 
+
+		@CreateDateColumn()
+		dateCreation: Date; 
+
+		@UpdateDateColumn()
+		dateMaj: Date; 
+
+		@VersionColumn()
+		version: number; 
+
+	}
+```
 	
 	- modifier controller: adapter le nom de la route; harmoniser le nom de la clé primaire avec celui de l'entity;
 	
