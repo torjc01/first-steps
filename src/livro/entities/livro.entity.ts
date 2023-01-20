@@ -44,4 +44,11 @@ export class Livro {
 
     @Column({default: true})
     isActive: boolean;
+
+    @Column({default: false})
+    isAntigo: boolean;
+
+    @Column({length: 255})
+    observacoes: string; 
+    
 }
