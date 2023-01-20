@@ -33,7 +33,7 @@
 	export const MYSQL_DATABASE='porte'
 ```
 
-- Adicionar constants.ts au `.gitignore`
+- Ajouter constants.ts au `.gitignore`
 
 - Créer la database `porte` dans l'application de l'outil d'admin.
 
@@ -41,6 +41,8 @@
 	CREATE DATABASE PORTE; 
 	USE PORTE; 
 ```
+
+- Montrer la page de l'API doc: http://localhost:3000/api
 
 - Modifier le fichier `src/app.module.ts` et ajouter `imports forRoot`: 
 
