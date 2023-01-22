@@ -1,0 +1,74 @@
+[
+    {
+      "codigo": 1,
+      "siglaISO": "pt-br",
+      "nome": "Português",
+      "nomeEn": "Portuguese",
+      "nomeFr": "Portugais",
+      "nomeOriginal": "Português"
+    },
+    {
+      "codigo": 2,
+      "siglaISO": "en",
+      "nome": "Inglês",
+      "nomeEn": "English",
+      "nomeFr": "Anglais",
+      "nomeOriginal": "English"
+    },
+    {
+      "codigo": 3,
+      "siglaISO": "fr",
+      "nome": "Francês",
+      "nomeEn": "French",
+      "nomeFr": "Français",
+      "nomeOriginal": "Français"
+    },
+    {
+      "codigo": 4,
+      "siglaISO": "de",
+      "nome": "Alemao",
+      "nomeEn": "German",
+      "nomeFr": "Allemand",
+      "nomeOriginal": "Deutsch"
+    },
+    {
+      "codigo": 5,
+      "siglaISO": "la",
+      "nome": "Latim",
+      "nomeEn": "Latin",
+      "nomeFr": "Latin",
+      "nomeOriginal": "Latin"
+    },
+    {
+      "codigo": 6,
+      "siglaISO": "es",
+      "nome": "Espanhol",
+      "nomeEn": "Spanish",
+      "nomeFr": "Espagnol",
+      "nomeOriginal": "Espanol"
+    },
+    {
+      "codigo": 7,
+      "siglaISO": "iw",
+      "nome": "Hebraico",
+      "nomeEn": "Hebrew",
+      "nomeFr": "Hébreu",
+      "nomeOriginal": "Ivrit"
+    },
+    {
+      "codigo": 8,
+      "siglaISO": "gr",
+      "nome": "Grego",
+      "nomeEn": "Greek",
+      "nomeFr": "Grec",
+      "nomeOriginal": "Hellenika"
+    },
+    {
+      "codigo": 9,
+      "siglaISO": "hu",
+      "nome": "Hungaro",
+      "nomeEn": "Hungarian",
+      "nomeFr": "Hongrois",
+      "nomeOriginal": "Magyar"
+    }
+  ]

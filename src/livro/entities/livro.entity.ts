@@ -39,7 +39,7 @@ export class Livro {
     @Column({length: 64}) 
     colecao: string;
 
-    @Column({default: 'Cadastrado'})
+    @Column({default: 'C'})
     estado: string;
 
     @Column({default: true})
@@ -48,7 +48,7 @@ export class Livro {
     @Column({default: false})
     isAntigo: boolean;
 
-    @Column({length: 255})
+    @Column({length: 255, default: ""})
     observacoes: string; 
-    
+  
 }
