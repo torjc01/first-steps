@@ -10,10 +10,10 @@ import { PaisModule } from './pais/pais.module';
 import { EditoraModule } from './editora/editora.module';
 import { UserModule } from './user/user.module';
 import { JwtModule } from '@nestjs/jwt';
-import { secret } from './utils/constants';
 import { join } from 'path/posix'
 import { ServeStaticModule } from '@nestjs/serve-static';
-import { MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE } from './utils/constants';
+import { MYSQL_DATABASE, MYSQL_PASSWORD, MYSQL_USER } from './utils/constants';
+import { secret } from './utils/constants';
 
 require('dotenv').config();
 
@@ -21,7 +21,7 @@ require('dotenv').config();
   imports: [
     TypeOrmModule.forRoot({
       type: 'mysql', 
-      host: 'localhost', 
+      host: 'db', 
       port: 3306, 
       username: MYSQL_USER,       //process.env.MYSQL_USER, 
       password: MYSQL_PASSWORD,   //process.env.MYSQL_PASSWORD, 

@@ -42,3 +42,5 @@ env.sh
 database-backup*
 
 constants.ts
+
+data/

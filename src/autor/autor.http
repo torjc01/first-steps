@@ -53,5 +53,404 @@ X-API-Key:
 Content-Type: application/json
 
 [
-  
-]
+    {
+      "codigo": 1,
+      "nome": "Nihil",
+      "sobrenome": "",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": "Codigo especial de autor, para ser utilizado quando nao for possivel associar um autor especifico a orbra."
+    },
+    {
+      "codigo": 2,
+      "nome": "Various",
+      "sobrenome": "",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": "Registro de autor especial, para ser utilizado quando houverem muitos autores que nao estao identificados"
+    },
+    {
+      "codigo": 3,
+      "nome": "Machado",
+      "sobrenome": "de Assis",
+      "siglaISOPais": "br",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 4,
+      "nome": "Umberto",
+      "sobrenome": "Eco",
+      "siglaISOPais": "it",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 5,
+      "nome": "Adolf",
+      "sobrenome": "Hitler",
+      "siglaISOPais": "de",
+      "anoNascimento": 1889,
+      "biografia": ""
+    },
+    {
+      "codigo": 6,
+      "nome": "Ernst",
+      "sobrenome": "Jünger",
+      "siglaISOPais": "de",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 7,
+      "nome": "Gilbert Keith",
+      "sobrenome": "Chesterton",
+      "siglaISOPais": "uk",
+      "anoNascimento": 1874,
+      "biografia": ""
+    },
+    {
+      "codigo": 8,
+      "nome": "Alice",
+      "sobrenome": "Morais Torres",
+      "siglaISOPais": "ca",
+      "anoNascimento": 2022,
+      "biografia": "É o neném mais lindo do mundo, e o papai ama!"
+    },
+    {
+      "codigo": 9,
+      "nome": "Edjara",
+      "sobrenome": "Rodrigues Morais",
+      "siglaISOPais": "br",
+      "anoNascimento": 1981,
+      "biografia": ""
+    },
+    {
+      "codigo": 10,
+      "nome": "Edgar",
+      "sobrenome": "Allan Poe",
+      "siglaISOPais": "us",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 11,
+      "nome": "R.P.J.M",
+      "sobrenome": "Lelen, PhD",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 12,
+      "nome": "Sofia",
+      "sobrenome": "Capablanca",
+      "siglaISOPais": "es",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 13,
+      "nome": "David",
+      "sobrenome": "Day",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 14,
+      "nome": "Thomas",
+      "sobrenome": "J. Olmsted",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 15,
+      "nome": "Louis",
+      "sobrenome": "Segond",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 16,
+      "nome": "Howard",
+      "sobrenome": "Staunton, Esq.",
+      "siglaISOPais": "en",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 17,
+      "nome": "Jason",
+      "sobrenome": "M. Craig",
+      "siglaISOPais": "us",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 18,
+      "nome": "Johannes",
+      "sobrenome": "A. Buchmann",
+      "siglaISOPais": "de",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 19,
+      "nome": "Tom",
+      "sobrenome": "Igoe",
+      "siglaISOPais": "us",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 20,
+      "nome": "Don",
+      "sobrenome": "Coleman",
+      "siglaISOPais": "us",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 21,
+      "nome": "Brian",
+      "sobrenome": "Jepson",
+      "siglaISOPais": "us",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 22,
+      "nome": "Vinicius",
+      "sobrenome": "de Morais",
+      "siglaISOPais": "br",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 23,
+      "nome": "St Charles",
+      "sobrenome": "de Foucauld",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 24,
+      "nome": "D.M.",
+      "sobrenome": "Etter",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 25,
+      "nome": "Philip",
+      "sobrenome": "G. Collier",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 26,
+      "nome": "Claude",
+      "sobrenome": "Arnoux",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 27,
+      "nome": "Philippe",
+      "sobrenome": "Josserand",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 28,
+      "nome": "Arthur",
+      "sobrenome": "Schopenhauer",
+      "siglaISOPais": "de",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 29,
+      "nome": "Charles",
+      "sobrenome": "Samaran",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 30,
+      "nome": "Oliver",
+      "sobrenome": "Byrne",
+      "siglaISOPais": "uk",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 31,
+      "nome": "Jean-Marie",
+      "sobrenome": "Ragon",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 32,
+      "nome": "Hermes",
+      "sobrenome": "Trimegisto",
+      "siglaISOPais": "gr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 33,
+      "nome": "Cicero",
+      "sobrenome": "",
+      "siglaISOPais": "it",
+      "anoNascimento": 0,
+      "biografia": "Grande orador, politico e nobre romano"
+    },
+    {
+      "codigo": 34,
+      "nome": "Caius",
+      "sobrenome": "Julius Caesar",
+      "siglaISOPais": "it",
+      "anoNascimento": 0,
+      "biografia": "Grande orador, politico, nobre e imperador romano"
+    },
+    {
+      "codigo": 35,
+      "nome": "Lucrèce",
+      "sobrenome": "",
+      "siglaISOPais": "it",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 36,
+      "nome": "Thucydides",
+      "sobrenome": "",
+      "siglaISOPais": "gr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 37,
+      "nome": "André",
+      "sobrenome": "Piganiol",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 38,
+      "nome": "Léon",
+      "sobrenome": "Debeauvais",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 39,
+      "nome": "H.",
+      "sobrenome": "Petitmangin",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 40,
+      "nome": "Guy",
+      "sobrenome": "Michaud",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 41,
+      "nome": "Jean-Pierre",
+      "sobrenome": "Vernant",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 42,
+      "nome": "Sénèque",
+      "sobrenome": "",
+      "siglaISOPais": "it",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 43,
+      "nome": "Jérôme",
+      "sobrenome": "Carcopino",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 44,
+      "nome": "R.",
+      "sobrenome": "Morisset",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 45,
+      "nome": "G.",
+      "sobrenome": "Thévenot",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 46,
+      "nome": "A.A.",
+      "sobrenome": "Milne",
+      "siglaISOPais": "",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 47,
+      "nome": "Alexander",
+      "sobrenome": "Lenard",
+      "siglaISOPais": "hu",
+      "anoNascimento": 1910,
+      "biografia": ""
+    },
+    {
+      "codigo": 48,
+      "nome": "J.M. ",
+      "sobrenome": "Cobban",
+      "siglaISOPais": "uk",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 49,
+      "nome": "R.",
+      "sobrenome": "Colebourn",
+      "siglaISOPais": "uk",
+      "anoNascimento": 0,
+      "biografia": ""
+    },
+    {
+      "codigo": 50,
+      "nome": "Bernard.",
+      "sobrenome": "Bortolussi",
+      "siglaISOPais": "fr",
+      "anoNascimento": 0,
+      "biografia": ""
+    }
+  ]

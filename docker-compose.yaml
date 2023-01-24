@@ -1,19 +1,42 @@
-version: "3"
+version : "3.1"
+services: 
+  db:
+    container_name: mysqldb
+    image: mysql:8
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    ports:
+      - 3307:3306
+    expose:
+      - 3307
+    environment: 
+      MYSQL_DATABASE: exlibris
+      MYSQL_ROOT_PASSWORD: passworddoroot
+      MYSQL_USER: juliozohar
+      MYSQL_PASSWORD: Achtung@2023
+    volumes:
+        - ./data/mysql-data:/var/lib/mysql
+    networks:
+      - nestjs-network
 
-services:
-  mysql:
-    image: mysql:8
+  adminer: 
+    image: adminer
     restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: test
+    ports: 
+      - 8888:8080
+    networks:
+      - nestjs-network
+
+  api:
+    image: nestjs-backend
+    container_name: nestjs-api
+    depends_on: 
+      - db
     ports:
-      - "3306:3306"
-  db-test:
-    image: mysql:8
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: test
-    ports:
-      - "3307:3306"
+      - 3000:3000
+    networks: 
+      - nestjs-network
+    restart: unless-stopped
+
+networks:
+  nestjs-network:
