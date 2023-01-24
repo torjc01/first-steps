@@ -50,77 +50,75 @@ Content-Type: application/json
 
 [
     {
-        "siglaISO": "pt-br", 
-        "nome": "Português", 
-        "nomeEn": "Portuguese", 
-        "nomeFr": "Portugais", 
-        "nomeOriginal" : "Português"
-    }
-    ,
+      "codigo": 1,
+      "siglaISO": "pt-br",
+      "nome": "Português",
+      "nomeEn": "Portuguese",
+      "nomeFr": "Portugais",
+      "nomeOriginal": "Português"
+    },
     {
-        "siglaISO": "en", 
-        "nome": "Inglês", 
-        "nomeEn": "English", 
-        "nomeFr": "Anglais", 
-        "nomeOriginal" : "English"
-    }
-    ,
+      "codigo": 2,
+      "siglaISO": "en",
+      "nome": "Inglês",
+      "nomeEn": "English",
+      "nomeFr": "Anglais",
+      "nomeOriginal": "English"
+    },
     {
-        "siglaISO": "fr", 
-        "nome": "Francês", 
-        "nomeEn": "French", 
-        "nomeFr": "Français", 
-        "nomeOriginal" : "Français"
-    }
-    ,
+      "codigo": 3,
+      "siglaISO": "fr",
+      "nome": "Francês",
+      "nomeEn": "French",
+      "nomeFr": "Français",
+      "nomeOriginal": "Français"
+    },
     {
-        "siglaISO": "de", 
-        "nome": "Alemao", 
-        "nomeEn": "German", 
-        "nomeFr": "Allemand", 
-        "nomeOriginal" : "Deutsch"
-    }
-    ,
+      "codigo": 4,
+      "siglaISO": "de",
+      "nome": "Alemao",
+      "nomeEn": "German",
+      "nomeFr": "Allemand",
+      "nomeOriginal": "Deutsch"
+    },
     {
-        "siglaISO": "la", 
-        "nome": "Latim", 
-        "nomeEn": "Latin", 
-        "nomeFr": "Latin", 
-        "nomeOriginal" : "Latin"
-    }
-    ,
+      "codigo": 5,
+      "siglaISO": "la",
+      "nome": "Latim",
+      "nomeEn": "Latin",
+      "nomeFr": "Latin",
+      "nomeOriginal": "Latin"
+    },
     {
-        "siglaISO": "es", 
-        "nome": "Espanhol", 
-        "nomeEn": "Spanish", 
-        "nomeFr": "Espagnol", 
-        "nomeOriginal" : "Espanol"
-    }
-    ,
+      "codigo": 6,
+      "siglaISO": "es",
+      "nome": "Espanhol",
+      "nomeEn": "Spanish",
+      "nomeFr": "Espagnol",
+      "nomeOriginal": "Espanol"
+    },
     {
-        "siglaISO": "iw", 
-        "nome": "Hebraico", 
-        "nomeEn": "Hebrew", 
-        "nomeFr": "Hébreu", 
-        "nomeOriginal" : "Ivrit"
-    }
-    ,
+      "codigo": 7,
+      "siglaISO": "iw",
+      "nome": "Hebraico",
+      "nomeEn": "Hebrew",
+      "nomeFr": "Hébreu",
+      "nomeOriginal": "Ivrit"
+    },
     {
-        "siglaISO": "gr", 
-        "nome": "Grego", 
-        "nomeEn": "Greek", 
-        "nomeFr": "Grec", 
-        "nomeOriginal" : "Hellenika"
-    }
-    ,
+      "codigo": 8,
+      "siglaISO": "gr",
+      "nome": "Grego",
+      "nomeEn": "Greek",
+      "nomeFr": "Grec",
+      "nomeOriginal": "Hellenika"
+    },
     {
-        "siglaISO": "hu", 
-        "nome": "Hungaro", 
-        "nomeEn": "Hungarian", 
-        "nomeFr": "Hongrois", 
-        "nomeOriginal" : "Magyar"
+      "codigo": 9,
+      "siglaISO": "hu",
+      "nome": "Hungaro",
+      "nomeEn": "Hungarian",
+      "nomeFr": "Hongrois",
+      "nomeOriginal": "Magyar"
     }
-]
-
-
-
+  ]
