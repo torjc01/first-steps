@@ -11,13 +11,13 @@ async function bootstrap() {
     .setTitle("Biblioteca")
     .setDescription("Descricao da API de biblioteca pessoal")
     .setVersion("1.0")
-    //.addTag("biblioteca")
+    .addTag("exlibris")
     .build(); 
 
   const document = SwaggerModule.createDocument(app, config); 
   SwaggerModule.setup('api', app, document); 
   
-  await app.listen(3000);
+  await app.listen(3002);
 }
 bootstrap();
  
