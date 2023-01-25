@@ -1,110 +1,110 @@
 [
-    {
-      "codigo": 1,
-      "siglaISO": "br",
-      "nome": "Brasil",
-      "nomeEn": "Brazil",
-      "nomeFr": "Brésil",
-      "nomeOriginal": "Brasil",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 2,
-      "siglaISO": "ca",
-      "nome": "Canada",
-      "nomeEn": "Canada",
-      "nomeFr": "Canada",
-      "nomeOriginal": "Canada",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 3,
-      "siglaISO": "us",
-      "nome": "Estados Unidos",
-      "nomeEn": "United States",
-      "nomeFr": "États-Unis",
-      "nomeOriginal": "United States",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 4,
-      "siglaISO": "fr",
-      "nome": "França",
-      "nomeEn": "France",
-      "nomeFr": "France",
-      "nomeOriginal": "France",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 5,
-      "siglaISO": "it",
-      "nome": "Italia",
-      "nomeEn": "Italy",
-      "nomeFr": "Italie",
-      "nomeOriginal": "Italia",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 6,
-      "siglaISO": "de",
-      "nome": "Alemanha",
-      "nomeEn": "Germany",
-      "nomeFr": "Allemagne",
-      "nomeOriginal": "Deutschland",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 7,
-      "siglaISO": "il",
-      "nome": "Israel",
-      "nomeEn": "Israel",
-      "nomeFr": "Israël",
-      "nomeOriginal": "Yisrael",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 8,
-      "siglaISO": "uk",
-      "nome": "Reino Unido",
-      "nomeEn": "United Kingdom",
-      "nomeFr": "Royaume Uni",
-      "nomeOriginal": "United Kingdom",
-      "nomeExtensivo": ""
-    },
-    {
-      "codigo": 9,
-      "siglaISO": "pt",
-      "nome": "Portugal",
-      "nomeEn": "Portugal",
-      "nomeFr": "Portugal",
-      "nomeOriginal": "Portugal",
-      "nomeExtensivo": "Portugal"
-    },
-    {
-      "codigo": 10,
-      "siglaISO": "es",
-      "nome": "Espanha",
-      "nomeEn": "Spain",
-      "nomeFr": "Espagne",
-      "nomeOriginal": "Espana",
-      "nomeExtensivo": "Espanha"
-    },
-    {
-      "codigo": 11,
-      "siglaISO": "es",
-      "nome": "Espanha",
-      "nomeEn": "Spain",
-      "nomeFr": "Espagne",
-      "nomeOriginal": "Espana",
-      "nomeExtensivo": "Espanha"
-    },
-    {
-      "codigo": 12,
-      "siglaISO": "gr",
-      "nome": "Grécia",
-      "nomeEn": "Greece",
-      "nomeFr": "Grèce",
-      "nomeOriginal": "Hellas",
-      "nomeExtensivo": "Grécia"
-    }
-  ]
+  {
+    "codigo": 1,
+    "siglaISO": "br",
+    "nome": "Brasil",
+    "nomeEn": "Brazil",
+    "nomeFr": "Brésil",
+    "nomeOriginal": "Brasil",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 2,
+    "siglaISO": "ca",
+    "nome": "Canada",
+    "nomeEn": "Canada",
+    "nomeFr": "Canada",
+    "nomeOriginal": "Canada",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 3,
+    "siglaISO": "us",
+    "nome": "Estados Unidos",
+    "nomeEn": "United States",
+    "nomeFr": "États-Unis",
+    "nomeOriginal": "United States",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 4,
+    "siglaISO": "fr",
+    "nome": "França",
+    "nomeEn": "France",
+    "nomeFr": "France",
+    "nomeOriginal": "France",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 5,
+    "siglaISO": "it",
+    "nome": "Italia",
+    "nomeEn": "Italy",
+    "nomeFr": "Italie",
+    "nomeOriginal": "Italia",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 6,
+    "siglaISO": "de",
+    "nome": "Alemanha",
+    "nomeEn": "Germany",
+    "nomeFr": "Allemagne",
+    "nomeOriginal": "Deutschland",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 7,
+    "siglaISO": "il",
+    "nome": "Israel",
+    "nomeEn": "Israel",
+    "nomeFr": "Israël",
+    "nomeOriginal": "Yisrael",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 8,
+    "siglaISO": "uk",
+    "nome": "Reino Unido",
+    "nomeEn": "United Kingdom",
+    "nomeFr": "Royaume Uni",
+    "nomeOriginal": "United Kingdom",
+    "nomeExtensivo": ""
+  },
+  {
+    "codigo": 9,
+    "siglaISO": "pt",
+    "nome": "Portugal",
+    "nomeEn": "Portugal",
+    "nomeFr": "Portugal",
+    "nomeOriginal": "Portugal",
+    "nomeExtensivo": "Portugal"
+  },
+  {
+    "codigo": 10,
+    "siglaISO": "es",
+    "nome": "Espanha",
+    "nomeEn": "Spain",
+    "nomeFr": "Espagne",
+    "nomeOriginal": "Espana",
+    "nomeExtensivo": "Espanha"
+  },
+  {
+    "codigo": 11,
+    "siglaISO": "es",
+    "nome": "Espanha",
+    "nomeEn": "Spain",
+    "nomeFr": "Espagne",
+    "nomeOriginal": "Espana",
+    "nomeExtensivo": "Espanha"
+  },
+  {
+    "codigo": 12,
+    "siglaISO": "gr",
+    "nome": "Grécia",
+    "nomeEn": "Greece",
+    "nomeFr": "Grèce",
+    "nomeOriginal": "Hellas",
+    "nomeExtensivo": "Grécia"
+  }
+]
