@@ -37,10 +37,9 @@ lerna-debug.log*
 # Arquivo de segredo 
 .env
 env.sh
+constants.ts
+docker.env
 
 # Arquivos de backup
 database-backup*
-
-constants.ts
-
 data/
