@@ -25,8 +25,8 @@ services:
       - nestjs-network
 
   api:
-    container_name: nestjs-api
-    image: nestjs-backend
+    container_name: exlibris-nestjs-api
+    image: exlibris-backend
     build:
       context: .
       dockerfile: ./Dockerfile
