@@ -16,7 +16,13 @@ export class Editora {
     @Column({length: 32})
     cidade: string; 
 
-    @Column({length: 2})
+    @Column({length: 10, default: ''})
+    codigoPostal: string; 
+
+    @Column({length: 3, default: ''})
+    siglaEstadoPais: string;
+
+    @Column({length: 2, default: ''})
     siglaISOPais: string;
 
     @Column({length: 64})

@@ -1,5 +1,5 @@
 /**
- * Funćão de verificação de dígito verificador de ISBN. Retorna verdadeiro se o dígito 
+ * Função de conferência de dígito verificador de ISBN. Retorna verdadeiro se o dígito 
  * de verificação confere, falso caso contrário. 
  * @param isbn string representando um número ISBN, que pode ter separadores por hífem 
  *             ou espacos. 

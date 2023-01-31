@@ -35,12 +35,365 @@ Content-Type: application/json
 
 [
     {  
-    "nome": "Hatier", 
+    "nome": "Éditions Fides", 
     "endereco" : "",
-    "cidade" : "Paris", 
-    "siglaISOPais": "fr", 
+    "cidade" : "Ottawa", 
+    "siglaISOPais": "ca", 
     "site": ""
     }
 ]
 
 
+####
+#### Create a batch of new editora 
+#### 
+POST {{hostname}}/editoras HTTP/1.1Köln
+X-API-Key: 
+Content-Type: application/json
+
+[
+  {
+    "codigo": 1,
+    "nome": "B&H Academic",
+    "endereco": "",
+    "cidade": "Nashville, TN",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 2,
+    "nome": "Editora Nova Aguilar S.A.",
+    "endereco": "",
+    "cidade": "Rio de Janeiro, RJ",
+    "siglaISOPais": "br",
+    "site": ""
+  },
+  {
+    "codigo": 3,
+    "nome": "Éditions Petrus",
+    "endereco": "",
+    "cidade": "Plouisy",
+    "siglaISOPais": "fr",
+    "site": "https://www.asonimage.fr"
+  },
+  {
+    "codigo": 4,
+    "nome": "Crown Publishing Group",
+    "endereco": "",
+    "cidade": "New York",
+    "siglaISOPais": "us",
+    "site": "https://www.crownpublishing.com"
+  },
+  {
+    "codigo": 5,
+    "nome": "Image Catholic Books",
+    "endereco": "",
+    "cidade": "New York",
+    "siglaISOPais": "us",
+    "site": "https://www.imagecatholicbooks.com"
+  },
+  {
+    "codigo": 6,
+    "nome": "The Benjamin/Cummings Publishing Company, Inc.",
+    "endereco": "",
+    "cidade": "Redwood City, CA",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 7,
+    "nome": "Editions Gallimard",
+    "endereco": "",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 8,
+    "nome": "Amazon.ca",
+    "endereco": "",
+    "cidade": "Bolton On",
+    "siglaISOPais": "ca",
+    "site": ""
+  },
+  {
+    "codigo": 9,
+    "nome": "Lacour Éditeur",
+    "endereco": "",
+    "cidade": "Nimes",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 10,
+    "nome": "Les Belles Lettres",
+    "endereco": "95, bd Raspail, 75006",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": "https://www.lesbelleslettres.com"
+  },
+  {
+    "codigo": 11,
+    "nome": "E. Dentu, Libraire-Éditeur",
+    "endereco": "Palais-Royal, galerie Vitrée 13",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 12,
+    "nome": "Taschen",
+    "endereco": "",
+    "cidade": "Köln",
+    "siglaISOPais": "de",
+    "site": "https://www.taschen.com"
+  },
+  {
+    "codigo": 13,
+    "nome": "Topbooks",
+    "endereco": "Rua Visconde de Inhauma, 58",
+    "cidade": "Rio de Janeiro, RJ",
+    "siglaISOPais": "br",
+    "site": "https://www.topbooks.com.br"
+  },
+  {
+    "codigo": 14,
+    "nome": "Éditions Scribe",
+    "endereco": "",
+    "cidade": "",
+    "siglaISOPais": "fr",
+    "site": "https://www.scribe.fr"
+  },
+  {
+    "codigo": 15,
+    "nome": "Les Presses Saint-Augustin",
+    "endereco": "",
+    "cidade": "Bruges",
+    "siglaISOPais": "be",
+    "site": ""
+  },
+  {
+    "codigo": 16,
+    "nome": "Imprimerie Mame",
+    "endereco": "",
+    "cidade": "",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 17,
+    "nome": "Casa Editrice Marietti",
+    "endereco": "",
+    "cidade": "Torino",
+    "siglaISOPais": "it",
+    "site": "https://www.mariettieditore.it/"
+  },
+  {
+    "codigo": 18,
+    "nome": "Editora Caritatem",
+    "endereco": "",
+    "cidade": "Rio de Janeiro",
+    "siglaISOPais": "br",
+    "site": "https://livrariacaritatem.com.br/"
+  },
+  {
+    "codigo": 19,
+    "nome": "J. De Gigord, Éditeur",
+    "endereco": "Rue Cassette, 15",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 20,
+    "nome": "Garnier-Flammarion",
+    "endereco": "",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 21,
+    "nome": "Harvard University Press",
+    "endereco": "",
+    "cidade": "Cambridge, Mass",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 22,
+    "nome": "Presses Universitaires de France",
+    "endereco": "108, Boulevard Saint-Germain",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": "https://www.puf.com/"
+  },
+  {
+    "codigo": 23,
+    "nome": "Librairie CLassique Eugène Belin",
+    "endereco": "8, rue Férou",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 24,
+    "nome": "Librairie Hachette",
+    "endereco": "",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 25,
+    "nome": "François Maspero",
+    "endereco": "1, place Paul-Painlevé, 5e",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 26,
+    "nome": "L'Artisan du Livre",
+    "endereco": "2, rue des Fleurs, 2e",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 27,
+    "nome": "Éditions Garnier Frères",
+    "endereco": "6, rue des Saints-Pères, 6e",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 28,
+    "nome": "Paulinas",
+    "endereco": "",
+    "cidade": "Sao Paulo",
+    "siglaISOPais": "br",
+    "site": ""
+  },
+  {
+    "codigo": 29,
+    "nome": "Les Éditions de l'École",
+    "endereco": "rue de Sèvres",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 30,
+    "nome": "Typis Polyglottis Vaticanis",
+    "endereco": "",
+    "cidade": "Vaticano",
+    "siglaISOPais": "va",
+    "site": ""
+  },
+  {
+    "codigo": 31,
+    "nome": "Penguin Books",
+    "endereco": "375, Hudson Street",
+    "cidade": "New York",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 32,
+    "nome": "Methuen & Co Ltd",
+    "endereco": "36, Essex Street",
+    "cidade": "Strand",
+    "siglaISOPais": "uk",
+    "site": ""
+  },
+  {
+    "codigo": 33,
+    "nome": "Hatier",
+    "endereco": "",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 34,
+    "nome": "O.C.D.L. Lutetiae Parisiorum Edidit A.D.",
+    "endereco": "76, rue des Saints Pères - 7e",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 35,
+    "nome": "Beauchesne et ses fils",
+    "endereco": "",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 36,
+    "nome": "Kölner Universitätsverlag",
+    "endereco": "",
+    "cidade": "Köln",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 37,
+    "nome": "Christian Bourgois Editeur",
+    "endereco": "",
+    "cidade": "",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 38,
+    "nome": "Presses de l'Université de Québec",
+    "endereco": "Le Delta I, boulevard Laurier, bureau 450",
+    "cidade": "Québec",
+    "siglaISOPais": "ca",
+    "site": "https://www.puq.ca"
+  },
+  {
+    "codigo": 39,
+    "nome": "Addison-Wesley",
+    "endereco": "",
+    "cidade": "",
+    "siglaISOPais": "us",
+    "site": "https://pearsoned.com"
+  },
+  {
+    "codigo": 40,
+    "nome": "Quetzal Editores",
+    "endereco": "Rua Prof. Jorge da Silva Horta, 1",
+    "cidade": "Lisboa",
+    "siglaISOPais": "pt",
+    "site": "https://quetzaleditores.pt"
+  },
+  {
+    "codigo": 41,
+    "nome": "Hackett Publishing Company, Inc.",
+    "endereco": "PO Box 44937",
+    "cidade": "Indianapolis",
+    "siglaISOPais": "us",
+    "site": "https://hackettpublising.com"
+  },
+  {
+    "codigo": 42,
+    "nome": "Armand Colin Éditeur",
+    "endereco": "5, rue Laromiguière",
+    "cidade": "Paris",
+    "siglaISOPais": "fr",
+    "site": "https://armand-colin.com"
+  },
+  {
+    "codigo": 43,
+    "nome": "Les Presses de l'Université Laval",
+    "endereco": "",
+    "cidade": "Québec",
+    "siglaISOPais": "ca",
+    "site": ""
+  }
+]

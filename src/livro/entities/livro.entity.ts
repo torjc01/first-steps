@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column } from  'typeorm'; 
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, DeleteDateColumn, VersionColumn } from  'typeorm'; 
 
 @Entity()
 export class Livro {
@@ -40,7 +40,13 @@ export class Livro {
     colecao: string;
 
     @Column({default: 'C'})
-    estado: string;
+    status: string;
+
+    @Column({default: '', length: 20})
+    isbn: string;
+
+    @Column({default: 0})
+    paginas: number; 
 
     @Column({default: true})
     isActive: boolean;
@@ -50,5 +56,17 @@ export class Livro {
 
     @Column({length: 255, default: ""})
     observacoes: string; 
+
+    @CreateDateColumn()
+    dataCriacao: Date; 
+
+    @UpdateDateColumn()
+    dataModificacao: Date; 
+
+    @DeleteDateColumn()
+    dataSupressao: Date; 
+
+    @VersionColumn()
+    versao: number; 
   
 }
