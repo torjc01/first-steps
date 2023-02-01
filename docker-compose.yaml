@@ -10,10 +10,10 @@ services:
     expose:
       - 3307
     environment:
-      - MYSQL_ROOT_PASSWORD=2BK4PuDBJpXFfLCBmQFrNkJmw8C2rZqr
-      - MYSQL_USER=juliozohar
-      - MYSQL_PASSWORD=2BK4PuDBJpXFfLCBmQFrNkJmw8C2rZqr
-      - MYSQL_DATABASE=exlibris
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_USER=
+      - MYSQL_PASSWORD=
+      - MYSQL_DATABASE=
     volumes:
         - ./data/mysql-data:/var/lib/mysql
     networks:
@@ -37,14 +37,14 @@ services:
     depends_on: 
       - db
     environment:
-      - MYSQL_HOST=db
-      - MYSQL_PORT=3306
-      - MYSQL_ROOT_PASSWORD=2BK4PuDBJpXFfLCBmQFrNkJmw8C2rZqr
-      - MYSQL_USER=juliozohar
-      - MYSQL_PASSWORD=2BK4PuDBJpXFfLCBmQFrNkJmw8C2rZqr
-      - MYSQL_DATABASE=exlibris
+      - MYSQL_HOST=
+      - MYSQL_PORT=
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_USER=
+      - MYSQL_PASSWORD=
+      - MYSQL_DATABASE=
       - MODE=DEV
-      - SECRET=kingpriamoftroy
+      - SECRET=
     ports:
       - 33000:3000
     networks: 
