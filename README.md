@@ -1,7 +1,44 @@
-# Deploy da aplicaçao
+# Deploy da aplicação
 
-Criar um arquivo .env no diretorio raiz da aplicacao, e incluir as variaveis de ambiente para acesso ao banco de dados. 
+Criar um arquivo .env no diretorio raiz da aplicação, e incluir as variáveis de ambiente para acesso ao banco de dados. 
 
+**.env**  
+```
+# Variables d'environnement
+MODE=DEV
+SECRET=
+
+# Variables d'environnement de la bd MySQL
+MYSQL_HOST=localhost
+MYSQL_PORT=3307
+MYSQL_ROOT_PASSWORD=
+MYSQL_USER=
+MYSQL_PASSWORD=
+MYSQL_DATABASE=
+
+# Variables d'environnement de l'outil pgadmin
+PGADMIN_DEFAULT_EMAIL=
+PGADMIN_DEFAULT_PASSWORD=
+```
+
+Em seguida, faça a instalação da aplicação:
+
+```bash
+$ npm install
+```
+
+Execução da aplicação
+
+```bash
+# development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
 
 # Database 
 

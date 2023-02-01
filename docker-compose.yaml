@@ -9,14 +9,18 @@ services:
       - 3307:3306
     expose:
       - 3307
-    env_file:
-      - docker.env
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_USER=
+      - MYSQL_PASSWORD=
+      - MYSQL_DATABASE=
     volumes:
         - ./data/mysql-data:/var/lib/mysql
     networks:
       - nestjs-network
 
   adminer: 
+    container_name: exlibris-adminer
     image: adminer
     restart: always
     ports: 
@@ -32,8 +36,17 @@ services:
       dockerfile: ./Dockerfile
     depends_on: 
       - db
+    environment:
+      - MYSQL_HOST=
+      - MYSQL_PORT=
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_USER=
+      - MYSQL_PASSWORD=
+      - MYSQL_DATABASE=
+      - MODE=DEV
+      - SECRET=
     ports:
-      - 3000:3000
+      - 33000:3000
     networks: 
       - nestjs-network
     restart: unless-stopped
