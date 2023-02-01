@@ -12,14 +12,16 @@ import { UserModule } from './user/user.module';
 import { JwtModule } from '@nestjs/jwt';
 import { join } from 'path/posix'
 import { ServeStaticModule } from '@nestjs/serve-static';
-import { MYSQL_DATABASE, MYSQL_PASSWORD, MYSQL_USER } from './utils/constants';
-import { secret } from './utils/constants';
+import { configService } from './config.service';
 
 require('dotenv').config();
 
+let secret = configService.getSecret();
+
 @Module({
   imports: [
-    TypeOrmModule.forRoot({
+    TypeOrmModule.forRoot(configService.getTypeOrmConfig()),
+    /*TypeOrmModule.forRoot({
       type: 'mysql', 
       host: 'db', 
       port: 3306, 
@@ -28,7 +30,7 @@ require('dotenv').config();
       database: MYSQL_DATABASE,   //process.env.MYSQL_DATABASE, 
       autoLoadEntities: true, 
       synchronize: true
-    }),
+    }), */
     JwtModule.register({
       secret,
       signOptions: { expiresIn: '2h' },
