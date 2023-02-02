@@ -36,10 +36,10 @@ Content-Type: application/json
 
 [
     {
-    "nome": "Hésiodo",
-    "sobrenome": "",
-    "outrasDenominacoes": "",
-    "siglaISOPais": "gr",
+    "nome": "São Thomas",
+    "sobrenome": "de Aquino",
+    "outrasDenominacoes": "St Thomas Aquinas; St Thomas d'Aquin",
+    "siglaISOPais": "",
     "anoNascimento": 0,
     "biografia": ""
   }
@@ -106,7 +106,7 @@ Content-Type: application/json
     "outrasDenominacoes": "",
     "siglaISOPais": "de",
     "anoNascimento": 0,
-    "biografia": ""
+    "biografia": "Ernst Jünger was a decorated German soldier and author who became famous for his World War I memoir Storm of Steel. The son of a successful businessman and chemist, Jünger rebelled against an affluent upbringing and sought adventure in the Wandervogel, before running away to briefly serve in the French Foreign Legion, an illegal act. Because he escaped prosecution in Germany due to his father's efforts, Junger was able to enlist on the outbreak of war. A fearless leader who admired bravery above all else, he enthusiastically participated in actions in which his units were sometimes virtually annihilated. During an ill-fated German offensive in 1918 Junger's WW1 career ended with the last and most serious of his many woundings, and he was awarded the Pour le Mérite, a rare decoration for one of his rank.  Junger served in World War II as captain in the German Army. Assigned to an administrative position in Paris, he socialized with prominent artists of the day such as Picasso and Jean Cocteau. His early time in France is described in his diary Gärten und Straßen (1942, Gardens and Streets). He was also in charge of executing younger German soldiers who had deserted. In his book Un Allemand à Paris , the writer Gerhard Heller states that he had been interested in learning how a person reacts to death under such circumstances and had a morbid fascination for the subject.  Jünger appears on the fringes of the Stauffenberg bomb plot to assassinate Adolf Hitler (July 20, 1944). He was clearly an inspiration to anti-Nazi conservatives in the German Army, and while in Paris he was close to the old, mostly Prussian, officers who carried out the assassination attempt against Hitler. He was only peripherally involved in the events however, and in the aftermath suffered only dismissal from the army in the summer of 1944, rather than execution."
   },
   {
     "codigo": 7,
@@ -701,6 +701,23 @@ Content-Type: application/json
     "siglaISOPais": "ie",
     "anoNascimento": 0,
     "biografia": ""
+  },
+  {
+    "codigo": 73,
+    "nome": "Émile",
+    "sobrenome": "Nelligan",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "ca",
+    "anoNascimento": 1879,
+    "biografia": ""
+  },
+  {
+    "codigo": 74,
+    "nome": "Hésiodo",
+    "sobrenome": "",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "gr",
+    "anoNascimento": 0,
+    "biografia": ""
   }
 ]
-

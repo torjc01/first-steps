@@ -35,10 +35,10 @@ Content-Type: application/json
 
 [
     {  
-    "nome": "Éditions Fides", 
+    "nome": "The Aquinas Institute for the Study of the Sacred Doctrine", 
     "endereco" : "",
-    "cidade" : "Ottawa", 
-    "siglaISOPais": "ca", 
+    "cidade" : "Lander, WI", 
+    "siglaISOPais": "us   ", 
     "site": ""
     }
 ]
@@ -57,6 +57,8 @@ Content-Type: application/json
     "nome": "B&H Academic",
     "endereco": "",
     "cidade": "Nashville, TN",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": ""
   },
@@ -65,6 +67,8 @@ Content-Type: application/json
     "nome": "Editora Nova Aguilar S.A.",
     "endereco": "",
     "cidade": "Rio de Janeiro, RJ",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "br",
     "site": ""
   },
@@ -73,6 +77,8 @@ Content-Type: application/json
     "nome": "Éditions Petrus",
     "endereco": "",
     "cidade": "Plouisy",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": "https://www.asonimage.fr"
   },
@@ -81,6 +87,8 @@ Content-Type: application/json
     "nome": "Crown Publishing Group",
     "endereco": "",
     "cidade": "New York",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": "https://www.crownpublishing.com"
   },
@@ -89,6 +97,8 @@ Content-Type: application/json
     "nome": "Image Catholic Books",
     "endereco": "",
     "cidade": "New York",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": "https://www.imagecatholicbooks.com"
   },
@@ -97,6 +107,8 @@ Content-Type: application/json
     "nome": "The Benjamin/Cummings Publishing Company, Inc.",
     "endereco": "",
     "cidade": "Redwood City, CA",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": ""
   },
@@ -105,6 +117,8 @@ Content-Type: application/json
     "nome": "Editions Gallimard",
     "endereco": "",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -113,6 +127,8 @@ Content-Type: application/json
     "nome": "Amazon.ca",
     "endereco": "",
     "cidade": "Bolton On",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "ca",
     "site": ""
   },
@@ -121,6 +137,8 @@ Content-Type: application/json
     "nome": "Lacour Éditeur",
     "endereco": "",
     "cidade": "Nimes",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -129,6 +147,8 @@ Content-Type: application/json
     "nome": "Les Belles Lettres",
     "endereco": "95, bd Raspail, 75006",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": "https://www.lesbelleslettres.com"
   },
@@ -137,6 +157,8 @@ Content-Type: application/json
     "nome": "E. Dentu, Libraire-Éditeur",
     "endereco": "Palais-Royal, galerie Vitrée 13",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -145,6 +167,8 @@ Content-Type: application/json
     "nome": "Taschen",
     "endereco": "",
     "cidade": "Köln",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "de",
     "site": "https://www.taschen.com"
   },
@@ -153,6 +177,8 @@ Content-Type: application/json
     "nome": "Topbooks",
     "endereco": "Rua Visconde de Inhauma, 58",
     "cidade": "Rio de Janeiro, RJ",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "br",
     "site": "https://www.topbooks.com.br"
   },
@@ -161,6 +187,8 @@ Content-Type: application/json
     "nome": "Éditions Scribe",
     "endereco": "",
     "cidade": "",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": "https://www.scribe.fr"
   },
@@ -169,6 +197,8 @@ Content-Type: application/json
     "nome": "Les Presses Saint-Augustin",
     "endereco": "",
     "cidade": "Bruges",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "be",
     "site": ""
   },
@@ -177,6 +207,8 @@ Content-Type: application/json
     "nome": "Imprimerie Mame",
     "endereco": "",
     "cidade": "",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -185,6 +217,8 @@ Content-Type: application/json
     "nome": "Casa Editrice Marietti",
     "endereco": "",
     "cidade": "Torino",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "it",
     "site": "https://www.mariettieditore.it/"
   },
@@ -193,6 +227,8 @@ Content-Type: application/json
     "nome": "Editora Caritatem",
     "endereco": "",
     "cidade": "Rio de Janeiro",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "br",
     "site": "https://livrariacaritatem.com.br/"
   },
@@ -201,6 +237,8 @@ Content-Type: application/json
     "nome": "J. De Gigord, Éditeur",
     "endereco": "Rue Cassette, 15",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -209,6 +247,8 @@ Content-Type: application/json
     "nome": "Garnier-Flammarion",
     "endereco": "",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -217,6 +257,8 @@ Content-Type: application/json
     "nome": "Harvard University Press",
     "endereco": "",
     "cidade": "Cambridge, Mass",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": ""
   },
@@ -225,6 +267,8 @@ Content-Type: application/json
     "nome": "Presses Universitaires de France",
     "endereco": "108, Boulevard Saint-Germain",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": "https://www.puf.com/"
   },
@@ -233,6 +277,8 @@ Content-Type: application/json
     "nome": "Librairie CLassique Eugène Belin",
     "endereco": "8, rue Férou",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -241,6 +287,8 @@ Content-Type: application/json
     "nome": "Librairie Hachette",
     "endereco": "",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -249,6 +297,8 @@ Content-Type: application/json
     "nome": "François Maspero",
     "endereco": "1, place Paul-Painlevé, 5e",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -257,6 +307,8 @@ Content-Type: application/json
     "nome": "L'Artisan du Livre",
     "endereco": "2, rue des Fleurs, 2e",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -265,6 +317,8 @@ Content-Type: application/json
     "nome": "Éditions Garnier Frères",
     "endereco": "6, rue des Saints-Pères, 6e",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -273,6 +327,8 @@ Content-Type: application/json
     "nome": "Paulinas",
     "endereco": "",
     "cidade": "Sao Paulo",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "br",
     "site": ""
   },
@@ -281,6 +337,8 @@ Content-Type: application/json
     "nome": "Les Éditions de l'École",
     "endereco": "rue de Sèvres",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -289,6 +347,8 @@ Content-Type: application/json
     "nome": "Typis Polyglottis Vaticanis",
     "endereco": "",
     "cidade": "Vaticano",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "va",
     "site": ""
   },
@@ -297,6 +357,8 @@ Content-Type: application/json
     "nome": "Penguin Books",
     "endereco": "375, Hudson Street",
     "cidade": "New York",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": ""
   },
@@ -305,6 +367,8 @@ Content-Type: application/json
     "nome": "Methuen & Co Ltd",
     "endereco": "36, Essex Street",
     "cidade": "Strand",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "uk",
     "site": ""
   },
@@ -313,6 +377,8 @@ Content-Type: application/json
     "nome": "Hatier",
     "endereco": "",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -321,6 +387,8 @@ Content-Type: application/json
     "nome": "O.C.D.L. Lutetiae Parisiorum Edidit A.D.",
     "endereco": "76, rue des Saints Pères - 7e",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -329,6 +397,8 @@ Content-Type: application/json
     "nome": "Beauchesne et ses fils",
     "endereco": "",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -337,6 +407,8 @@ Content-Type: application/json
     "nome": "Kölner Universitätsverlag",
     "endereco": "",
     "cidade": "Köln",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "de",
     "site": ""
   },
@@ -345,6 +417,8 @@ Content-Type: application/json
     "nome": "Christian Bourgois Editeur",
     "endereco": "",
     "cidade": "",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": ""
   },
@@ -353,6 +427,8 @@ Content-Type: application/json
     "nome": "Presses de l'Université de Québec",
     "endereco": "Le Delta I, boulevard Laurier, bureau 450",
     "cidade": "Québec",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "ca",
     "site": "https://www.puq.ca"
   },
@@ -361,6 +437,8 @@ Content-Type: application/json
     "nome": "Addison-Wesley",
     "endereco": "",
     "cidade": "",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": "https://pearsoned.com"
   },
@@ -369,6 +447,8 @@ Content-Type: application/json
     "nome": "Quetzal Editores",
     "endereco": "Rua Prof. Jorge da Silva Horta, 1",
     "cidade": "Lisboa",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "pt",
     "site": "https://quetzaleditores.pt"
   },
@@ -377,6 +457,8 @@ Content-Type: application/json
     "nome": "Hackett Publishing Company, Inc.",
     "endereco": "PO Box 44937",
     "cidade": "Indianapolis",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "us",
     "site": "https://hackettpublising.com"
   },
@@ -385,6 +467,8 @@ Content-Type: application/json
     "nome": "Armand Colin Éditeur",
     "endereco": "5, rue Laromiguière",
     "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "fr",
     "site": "https://armand-colin.com"
   },
@@ -393,7 +477,171 @@ Content-Type: application/json
     "nome": "Les Presses de l'Université Laval",
     "endereco": "",
     "cidade": "Québec",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "ca",
+    "site": ""
+  },
+  {
+    "codigo": 44,
+    "nome": "Harper Collins Publishers Ltd",
+    "endereco": "1 London Bridge Street",
+    "cidade": "London",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "uk",
+    "site": "https://www.harpercollins.co.uk"
+  },
+  {
+    "codigo": 45,
+    "nome": "Le Livre de Poche",
+    "endereco": "",
+    "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "fr",
+    "site": "https://www.livredepoche.com"
+  },
+  {
+    "codigo": 46,
+    "nome": "Zentralverlag der NSDAP Ehe Nachfolger",
+    "endereco": "",
+    "cidade": "München",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 47,
+    "nome": "J G Cotta'sche Buchhandlung Nachfolger",
+    "endereco": "",
+    "cidade": "Stuttgart",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 48,
+    "nome": "Nouvelles Éditions Latines",
+    "endereco": "21, rue Servandoni, 6e",
+    "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 49,
+    "nome": "Biblioteca do Exército Editora",
+    "endereco": "",
+    "cidade": "Rio de Janeiro",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "br",
+    "site": ""
+  },
+  {
+    "codigo": 50,
+    "nome": "Companhia Editora Americana",
+    "endereco": "Rua Visconde de Maranguape, 15",
+    "cidade": "Rio de Janeiro",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "br",
+    "site": ""
+  },
+  {
+    "codigo": 51,
+    "nome": "Éditions B D Simpson",
+    "endereco": "",
+    "cidade": "Montréal",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "ca",
+    "site": ""
+  },
+  {
+    "codigo": 52,
+    "nome": "APEC Editôra SA",
+    "endereco": "Av Churchill, 94, 6 andar",
+    "cidade": "Rio de Janeiro",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "br",
+    "site": ""
+  },
+  {
+    "codigo": 53,
+    "nome": "J M Reindl Verlag",
+    "endereco": "",
+    "cidade": "Bamberg",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 54,
+    "nome": "Frundsberg-Verlag, G.m.b.H.",
+    "endereco": "",
+    "cidade": "Magdeburg",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 55,
+    "nome": "Gyldendalske Boghandel Nordisk Forlag",
+    "endereco": "",
+    "cidade": "Kobenhavn",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "dk",
+    "site": ""
+  },
+  {
+    "codigo": 56,
+    "nome": "Editora Sêfer",
+    "endereco": "",
+    "cidade": "São Paulo",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "br",
+    "site": ""
+  },
+  {
+    "codigo": 57,
+    "nome": "House of the Temple",
+    "endereco": "",
+    "cidade": "Washington",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 58,
+    "nome": "Simon and Schuster, Inc.",
+    "endereco": "Rockfeller Center, 630 Fifth Avenue",
+    "cidade": "New York",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 59,
+    "nome": "Éditions Fides",
+    "endereco": "",
+    "cidade": "Ottawa",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
     "siglaISOPais": "ca",
     "site": ""
   }
 ]
+
+

@@ -1,67 +1,3 @@
-#/*
-#* Copyright (c) 2022 Gouvernement du Québec
-#* Auteur: Julio Cesar Torres 
-#* SPDX-License-Identifier: LiLiQ-R-v.1.1
-#* License-Filename: /LICENSE
-#*/
-##############################################################
-# Requetes http pour l'émeteur d'attestations d'accès virtuel
-##############################################################
-# Avant usage, il faut renseigner les champs X-API-Key des 
-# endpoints qui seront utilisés. 
-# 
-### Définition des variables globales 
-@hostname = http://localhost:33000
-
-# ============================================================================
-#    Entity: Livro
-#    Endpoint: /livro
-# ============================================================================
-
-####
-#### Selects all livros 
-#### 
-GET {{hostname}}/livros HTTP/1.1
-X-API-Key: 
-Content-Type: application/json
-
-
-####
-#### Create a new livro 
-#### 
-POST {{hostname}}/livros HTTP/1.1
-X-API-Key: 
-Content-Type: application/json
-
-[
-{
-    "titulo": "Commentary on the book of Job",
-    "subtitulo": "",
-    "tituloOriginal": "",
-    "autores": "São Thomas de Aquino",
-    "siglaISOIdioma": "la;en",
-    "edicao": "",
-    "cidade": "Lander",
-    "ano": 2016,
-    "genero": "Religião; Cristianismo; Apologética; Teologia; Doutrina; Filosofia",
-    "editora": "The Aquinas Institute for the Study of the Sacred Doctrine",
-    "colecao": "Opuscula",
-    "status": "C",
-    "isbn": "978-1-62340-022-4",
-    "paginas": 430,
-    "isActive": true,
-    "isAntigo": false,
-    "observacoes": "Volume 32"
-  }
-]
-
-####
-#### Create a new batch of livros 
-#### 
-POST {{hostname}}/livros HTTP/1.1
-X-API-Key: 
-Content-Type: application/json
-
 [
     {
         "codigo": 101,
@@ -1552,9 +1488,4 @@ Content-Type: application/json
         "versao": 1
       }
 ]
-
-
-
-
-
 
