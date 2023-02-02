@@ -48,9 +48,9 @@ function isISBNValido(digito, digitoCalc){
 // Casos de teste de isbn
 let isbnList = ['978-0-321-19368-1','978-85-7605-119-0', '9782760515000',
                 '9782212135626', '9781585109388', '978-1-62164-146-9', 
-                '978-1-944418-73-1', '978-2-76586-040-2'];
+                '978-1-944418-73-1', '978-2-76586-040-2', '3-7351-0169-0',
+                '978-1-62340-022-4'];
 
 isbnList.forEach(element => {
     console.log("ISBN ", element, " ", checkISBN(element));
 });
-
