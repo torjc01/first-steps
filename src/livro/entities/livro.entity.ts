@@ -6,40 +6,43 @@ export class Livro {
     @PrimaryGeneratedColumn()
     codigo: number;
 
-    @Column()
+    @Column({length:128, default: ""})
     titulo: string;
 
-    @Column()
+    @Column({length:256, default: ""})
     subtitulo: string;
 
-    @Column()
+    @Column({length:128, default: ""})
     tituloOriginal: string;
 
-    @Column()
+    @Column({length:128, default: ""})
     autores: string;
 
-    @Column({length: 8})
+    @Column({length: 8, default: ""})
     siglaISOIdioma: string;
     
-    @Column({length: 8})
+    @Column({length: 8, default: ""})
     edicao: string;
 
-    @Column()
+    @Column({length: 32, default: ""})
     cidade: string;
 
-    @Column()
+    @Column({default: 0})
     ano: number;
 
-    @Column()
+    @Column({length: 128, default: ""})
     genero: string;
     
-    @Column()
+    @Column({length: 32, default: ""})
     editora: string;
 
-    @Column({length: 64}) 
+    @Column({length: 64, default: ""}) 
     colecao: string;
 
-    @Column({default: 'C'})
+    @Column({length: 4, default: ""})
+    volume: string;
+
+    @Column({length: 3, default: 'C'})
     status: string;
 
     @Column({default: '', length: 20})
@@ -54,7 +57,7 @@ export class Livro {
     @Column({default: false})
     isAntigo: boolean;
 
-    @Column({length: 255, default: ""})
+    @Column({length: 512, default: ""})
     observacoes: string; 
 
     @CreateDateColumn()

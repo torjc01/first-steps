@@ -473,8 +473,8 @@
     "sobrenome": "Lourenço",
     "outrasDenominacoes": "",
     "siglaISOPais": "pt",
-    "anoNascimento": 0,
-    "biografia": "Latinista, classicista, professor universitario (Universidade de Coimbra)"
+    "anoNascimento": 1963,
+    "biografia": "Ensaísta, tradutor, ficcionista e poeta, Frederico Lourenço nasceu em Lisboa, em 1963, e é atualmente professor associado com agregação da Faculdade de Letras da Universidade de Coimbra e membro do Centro de Estudos Clássicos e Humanísticos da mesma instituição. Foi docente, entre 1989 e 2009, da Universidade de Lisboa, onde se licenciou em Línguas e Literaturas Clássicas (1988) e se doutorou em Literatura Grega (1999) com uma tese sobre Eurípides, orientada por Victor Jabouille (Lisboa) e James Diggle (Cambridge). Publicou artigos sobre Filologia Grega nas mais prestigiadas revistas internacionais (Classical Quarterly e Journal of Hellenic Studies) e, além da Ilíada, traduziu também a Odisseia de Homero, tragédias de Sófocles e de Eurípides, e peças de Goethe, Schiller e Arthur Schnitzler. No domínio da ficção, é autor de Pode Um Desejo Imenso (2002). Na poesia, é autor de Santo Asinha e Outros Poemas e de Clara Suspeita de Luz. Publicou ensaios como O Livro Aberto: Leituras da Bíblia, Grécia Revisitada, Estética da Dança Clássica e Novos Ensaios Helénicos e Alemães (Prémio PEN Clube de Ensaio 2008). Recebeu ainda os prémios PEN Clube Primeira Obra (2002), Prémio D. Diniz da Casa de Mateus (2003), Grande Prémio de Tradução (2003), Prémio Europa David Mourão-Ferreira (2006). Em 2016 iniciou na Quetzal a publicação dos seis volumes da sua tradução da Bíblia (que lhe valeu o Prémio Pessoa); em 2019 publicou uma Nova Gramática do Latim; em 2020, Latim do Zero a Vergílio em 50 Lições e Poesia Grega de Hesíodo a Teócrito (edição bilingue em grego e português); e, em 2021, as Bucólicas de Vergílio (em latim e português). "
   },
   {
     "codigo": 54,
@@ -616,7 +616,7 @@
     "nome": "Fernando",
     "sobrenome": "Pessoa",
     "outrasDenominacoes": "",
-    "siglaISOPais": "",
+    "siglaISOPais": "pt",
     "anoNascimento": 0,
     "biografia": ""
   },
@@ -662,6 +662,249 @@
     "sobrenome": "",
     "outrasDenominacoes": "",
     "siglaISOPais": "gr",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 75,
+    "nome": "Theodor",
+    "sobrenome": "Storm",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "de",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 76,
+    "nome": "Thomas",
+    "sobrenome": "Nashe",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 77,
+    "nome": "Einar",
+    "sobrenome": "Mikkelsen",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 78,
+    "nome": "Henry",
+    "sobrenome": "Bamford Parkes",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 79,
+    "nome": "T.S.",
+    "sobrenome": "Eliot",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "us",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 80,
+    "nome": "Henri",
+    "sobrenome": "Amouroux",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "fr",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 81,
+    "nome": "São Thomas",
+    "sobrenome": "de Aquino",
+    "outrasDenominacoes": "St Thomas Aquinas; St Thomas d'Aquin",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 82,
+    "nome": "Malba",
+    "sobrenome": "Tahan",
+    "outrasDenominacoes": "Julio Cesar de Mello e Souza",
+    "siglaISOPais": "br",
+    "anoNascimento": 1984,
+    "biografia": "Malba Tahan é o pseudônimo do professor de matemática Julio Cesar de Mello e Souza (1894-1974), autor de mais de 15 livros sobre os costumes e lendas do povo árabe."
+  },
+  {
+    "codigo": 83,
+    "nome": "Félix",
+    "sobrenome": "Gaffiot",
+    "outrasDenominacoes": "F Gaffiot",
+    "siglaISOPais": "fr",
+    "anoNascimento": 1870,
+    "biografia": "Félix Gaffiot (27 September 1870 – 2 November 1937) was a French philologist and teacher.In 1923, the publisher Hachette entrusted Félix Gaffiot with the task of compiling a Latin–French dictionary, which was soon eponymised Le Gaffiot. After writing thousands of index cards, Gaffiot at last saw his work appear in 1934. The dictionary stands out on account of its illustrations and the clearness of its typography and, since it first appeared, has been regularly reprinted, in both complete and abridged editions. A new, modernised edition of the complete dictionary was published in November 2000. "
+  },
+  {
+    "codigo": 84,
+    "nome": "Eça",
+    "sobrenome": "de Queiroz",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "pt",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 85,
+    "nome": "Alan",
+    "sobrenome": "Moore",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 86,
+    "nome": "Eddie",
+    "sobrenome": "Campbell",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 87,
+    "nome": "Robert",
+    "sobrenome": "Nystrom",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 88,
+    "nome": "Stuart",
+    "sobrenome": "Russell",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 89,
+    "nome": "Peter",
+    "sobrenome": "Norvig",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 90,
+    "nome": "Thomas",
+    "sobrenome": "H. Cormen",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 91,
+    "nome": "Charles",
+    "sobrenome": "E. Leiserson",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 92,
+    "nome": "Ronald",
+    "sobrenome": "L. Rivest",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 93,
+    "nome": "Clifford",
+    "sobrenome": "Stein",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 94,
+    "nome": "William",
+    "sobrenome": "H. Press",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 95,
+    "nome": "Saul",
+    "sobrenome": "A. Teukolsky",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 96,
+    "nome": "William",
+    "sobrenome": "T. Vetterling",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 97,
+    "nome": "Brian",
+    "sobrenome": "P. Flannery",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 98,
+    "nome": "Benedictus",
+    "sobrenome": "Henricus Merkelbach, O.P",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 99,
+    "nome": "Paul",
+    "sobrenome": "Robert",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "fr",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 100,
+    "nome": "Isaac",
+    "sobrenome": "Asimov",
+    "outrasDenominacoes": "",
+    "siglaISOPais": "",
+    "anoNascimento": 0,
+    "biografia": ""
+  },
+  {
+    "codigo": 101,
+    "nome": "Lucy",
+    "sobrenome": "Maud Montgomery",
+    "outrasDenominacoes": "L M Montgomery; L.M. Montgomery",
+    "siglaISOPais": "ca",
     "anoNascimento": 0,
     "biografia": ""
   }

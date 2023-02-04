@@ -6,19 +6,25 @@ export class Autor {
     @PrimaryGeneratedColumn()
     codigo          : number; 
 
-    @Column({length: 32}) 
+    @Column({length: 16, default:""})
+    titulos         : string; 
+
+    @Column({length: 32, default:""}) 
     nome            : string;
     
-    @Column({length: 32})
+    @Column({length: 32, default:""})
     sobrenome       : string;
+
+    @Column({length: 32, default:""})
+    nomeCompleto     : string;
 
     @Column({length: 255, default: ""})
     outrasDenominacoes: string; 
 
-    @Column({length: 3})
+    @Column({length: 3, default:""})
     siglaISOPais    : string;
     
-    @Column()
+    @Column({default: 0})
     anoNascimento   : number;
 
     @Column({length: 2048})

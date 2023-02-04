@@ -773,7 +773,7 @@
     "subtitulo": "",
     "tituloOriginal": "",
     "autores": "Nihil",
-    "siglaISOIdioma": "la; pt",
+    "siglaISOIdioma": "la;pt",
     "edicao": "0",
     "cidade": "Bruges",
     "ano": 1964,
@@ -787,7 +787,7 @@
     "isAntigo": false,
     "observacoes": "",
     "dataCriacao": "2023-01-26T19:42:41.895Z",
-    "dataModificacao": "2023-01-26T19:42:41.915Z",
+    "dataModificacao": "2023-02-02T14:56:21.080Z",
     "dataSupressao": null,
     "versao": 0
   },
@@ -2401,4 +2401,3 @@
   }
   
 ]
-

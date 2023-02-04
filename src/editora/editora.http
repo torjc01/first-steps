@@ -11,7 +11,7 @@
 # endpoints qui seront utilisés. 
 # 
 ### Définition des variables globales 
-@hostname = http://localhost:3000
+@hostname = http://localhost:33000
 
 # ============================================================================
 #    Entity: Editora
@@ -34,13 +34,15 @@ X-API-Key:
 Content-Type: application/json
 
 [
-    {  
-    "nome": "The Aquinas Institute for the Study of the Sacred Doctrine", 
-    "endereco" : "",
-    "cidade" : "Lander, WI", 
-    "siglaISOPais": "us   ", 
-    "site": ""
-    }
+  {
+    "nome": "Kindred Spirits of PEI",
+    "endereco": "5 Gerald McCarville Drive",
+    "cidade": "Kensignton",
+    "codigoPostal": "C0B 1M0",
+    "siglaEstadoPais": "PE",
+    "siglaISOPais": "ca",
+    "site": "http://annestore.ca"
+  }
 ]
 
 
@@ -64,13 +66,13 @@ Content-Type: application/json
   },
   {
     "codigo": 2,
-    "nome": "Editora Nova Aguilar S.A.",
-    "endereco": "",
-    "cidade": "Rio de Janeiro, RJ",
-    "codigoPostal": "",
-    "siglaEstadoPais": "",
-    "siglaISOPais": "br",
-    "site": ""
+    "nome": "Top Shelf Productions",
+    "endereco": "PO Box 1282",
+    "cidade": "Marietta",
+    "codigoPostal": "30061-1282",
+    "siglaEstadoPais": "GA",
+    "siglaISOPais": "us",
+    "site": "https://www.topshelfcomix.com"
   },
   {
     "codigo": 3,
@@ -285,7 +287,7 @@ Content-Type: application/json
   {
     "codigo": 24,
     "nome": "Librairie Hachette",
-    "endereco": "",
+    "endereco": "79, Boluevard Saint-Germain",
     "cidade": "Paris",
     "codigoPostal": "",
     "siglaEstadoPais": "",
@@ -641,7 +643,195 @@ Content-Type: application/json
     "siglaEstadoPais": "",
     "siglaISOPais": "ca",
     "site": ""
+  },
+  {
+    "codigo": 60,
+    "nome": "Verlag Otto Janke",
+    "endereco": "",
+    "cidade": "Leipzig",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 61,
+    "nome": "Aufbau-Verlag Berlin und Weimar",
+    "endereco": "",
+    "cidade": "",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 62,
+    "nome": "Verlag von Philipp Reclam jun.",
+    "endereco": "",
+    "cidade": "Leipzig",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 63,
+    "nome": "Payot ",
+    "endereco": "106, Boulevard St-Germain",
+    "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 64,
+    "nome": "Insel-Verlag ",
+    "endereco": "",
+    "cidade": "Leipzig",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 65,
+    "nome": "Librairie Arthème Fayard",
+    "endereco": "18, rue du Saint-Gothard",
+    "cidade": "Paris",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "fr",
+    "site": ""
+  },
+  {
+    "codigo": 66,
+    "nome": "Deutscher Bundestag Verwaltung Presse- und Informationzentrum",
+    "endereco": "",
+    "cidade": "Bonn",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "de",
+    "site": ""
+  },
+  {
+    "codigo": 67,
+    "nome": "Aquinas Institut, Inc",
+    "endereco": "",
+    "cidade": "Green Bay, WI",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 68,
+    "nome": "The Aquinas Institute for the Study of the Sacred Doctrine",
+    "endereco": "",
+    "cidade": "Lander, WI",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 69,
+    "nome": "Top Shelf Productions",
+    "endereco": "PO Box 1282",
+    "cidade": "Marietta",
+    "codigoPostal": "30061-1282",
+    "siglaEstadoPais": "GA",
+    "siglaISOPais": "us",
+    "site": "https://www.topshelfcomix.com"
+  },
+  {
+    "codigo": 70,
+    "nome": "Cambridge University Press",
+    "endereco": "University Printing House",
+    "cidade": "Cambridge",
+    "codigoPostal": "CB2 8BS",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "uk",
+    "site": "https://www.cambridge.org"
+  },
+  {
+    "codigo": 71,
+    "nome": "Editora Artes Médicas Sul Llda",
+    "endereco": "Av. Jerônimo de Ornellas, 670",
+    "cidade": "Porto Alegre",
+    "codigoPostal": "90040-340",
+    "siglaEstadoPais": "RS",
+    "siglaISOPais": "br",
+    "site": "https://www.bookman.com.br"
+  },
+  {
+    "codigo": 72,
+    "nome": "Bookman Companhia Editora",
+    "endereco": "Av. Jerônimo de Ornellas, 670",
+    "cidade": "Porto Alegre",
+    "codigoPostal": "90040-340",
+    "siglaEstadoPais": "RS",
+    "siglaISOPais": "br",
+    "site": "https://www.bookman.com.br"
+  },
+  {
+    "codigo": 73,
+    "nome": "Person Education, Inc",
+    "endereco": "221, River Street",
+    "cidade": "Hoboken",
+    "codigoPostal": "07030",
+    "siglaEstadoPais": "NJ",
+    "siglaISOPais": "us",
+    "site": "https://pearsoned.com"
+  },
+  {
+    "codigo": 74,
+    "nome": "The MIT Press",
+    "endereco": "Massachusetts Institut of Technology",
+    "cidade": "Cambridge",
+    "codigoPostal": "02142",
+    "siglaEstadoPais": "MA",
+    "siglaISOPais": "us",
+    "site": "http://mitpress.mit.edu"
+  },
+  {
+    "codigo": 75,
+    "nome": "La Librairie Dominicaine",
+    "endereco": "5375, Av. Notre-Dame de Grâce",
+    "cidade": "Montréal",
+    "codigoPostal": "",
+    "siglaEstadoPais": "QC",
+    "siglaISOPais": "ca",
+    "site": ""
+  },
+  {
+    "codigo": 76,
+    "nome": "Les Dictionnaires Robert",
+    "endereco": "25, Avenue Pierre-de-Coubertain",
+    "cidade": "Paris",
+    "codigoPostal": "75013",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "fr",
+    "site": "http://lerobert.com"
+  },
+  {
+    "codigo": 77,
+    "nome": "Fawcett Crest Books",
+    "endereco": "",
+    "cidade": "",
+    "codigoPostal": "",
+    "siglaEstadoPais": "",
+    "siglaISOPais": "us",
+    "site": ""
+  },
+  {
+    "codigo": 78,
+    "nome": "Kindred Spirits of PEI",
+    "endereco": "5 Gerald McCarville Drive",
+    "cidade": "Kensignton",
+    "codigoPostal": "C0B 1M0",
+    "siglaEstadoPais": "PE",
+    "siglaISOPais": "ca",
+    "site": "http://annestore.ca"
   }
 ]
-
-

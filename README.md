@@ -51,6 +51,9 @@ $ npm run start:prod
 **Autor**
 &codigo, nome, sobrenome, siglaISOPais, anoNascimento, biografia, codigoStatus, dataCriacao, dataModificacao, versao
 
+Adicionar: nomeCompleto, titulosHonorificos
+
+
 **Idioma**
 &siglaISO, nome, nomeEn, nomeFr, nomeOriginal, codigoStatus, dataCriacao, dataModificacao, versao
 
