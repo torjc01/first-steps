@@ -30,10 +30,10 @@ export class Livro {
     @Column({default: 0})
     ano: number;
 
-    @Column({length: 128, default: ""})
+    @Column({length: 256, default: ""})
     genero: string;
     
-    @Column({length: 32, default: ""})
+    @Column({length: 64, default: ""})
     editora: string;
 
     @Column({length: 64, default: ""}) 
