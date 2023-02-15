@@ -78,12 +78,27 @@ Adicionar: nomeCompleto, titulosHonorificos
 **TipoEncadernacao** 
 codigoTipoEncadernacao, descricaoTipoEncadernacao
 
+# Backups 
 
+Para realizar o backup da base de dados mysql, a partir da linha de comando. 
 
+**Backup**
 
+docker exec {nome_container} /usr/bin/mysqldump -u root --password={pass} {nome_database} > {nome_arquivo_backup.sql}
 
+**Restore** 
 
-Referências
+cat {nome_arquivo_backup.sql} | docker exec -i {nome_container} /usr/bin/mysql -u root --password={pass} ${nome_database}
+
+**Copia**
+
+docker cp {nome_container}:{/file/path/container} {/host/path/target}
+
+**Executar linha de comando docker**
+
+docker exec -it {nome_container} {/bin/bash}
+
+# Referências
 
 /present-proof/records/
 
